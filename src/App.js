@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
+import biker from './biker.gif';
 
-class App extends Component {
+export default class App extends Component {
 
     constructor(props) {
         super(props);
@@ -39,30 +40,38 @@ class App extends Component {
     }
 
     render() {
-        let {isLoaded, items} = this.state;
+        const {isLoaded, items} = this.state;
         if (!isLoaded) {
-            return <div>Loading...</div>;
+            return <div><img alt={"loadingpicture"} src={biker} style={{borderRadius:"50%",boxShadow:".5em .5em .5em grey"}}/></div>;
         } else {
             return (
-                <div className="App">
-                    <ul>
+                <div>
+                    <table style={{border: "1px solid black"}}>
+                        <tr style={{border: "1px solid black"}}>
+                            <th style={{border: "1px solid black"}}>code</th>
+                            <th style={{border: "1px solid black"}}>name</th>
+                            <th style={{border: "1px solid black"}}>bikes</th>
+                            <th style={{border: "1px solid black"}}>spaces</th>
+                            <th style={{border: "1px solid black"}}>id</th>
+                            <th style={{border: "1px solid black"}}>lat</th>
+                            <th style={{border: "1px solid black"}}>lon</th>
+                            <th style={{border: "1px solid black"}}>type</th>
+                        </tr>
                         {items.map(item => (
-                            <li key={item.id}>
-                                code: {item.code}|
-                                name: {item.name}|
-                                bikes: {item.bikes}|
-                                id: {item.id}|
-                                lat: {item.lat}|
-                                lon: {item.lon}|
-                                spaces: {item.spaces}|
-                                type: {item.type}
-                            </li>
+                            <tr key={item.id}>
+                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.code}</td>
+                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.name}</td>
+                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.bikes}</td>
+                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.spaces}</td>
+                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.id}</td>
+                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.lat}</td>
+                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.lon}</td>
+                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.type}</td>
+                            </tr>
                         ))}
-                    </ul>
+                    </table>
                 </div>
             );
         }
     }
 }
-
-export default App;
