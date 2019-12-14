@@ -42,11 +42,14 @@ export default class App extends Component {
     render() {
         const {isLoaded, items} = this.state;
         if (!isLoaded) {
-            return <div><img alt={"loadingpicture"} src={biker} style={{borderRadius:"50%",boxShadow:".5em .5em .5em grey"}}/></div>;
+            return <div>
+                <img alt={"loadingpicture"} src={biker}
+                     style={{borderRadius: "50%", boxShadow: ".5em .5em .5em grey"}}/></div>;
         } else {
             return (
                 <div>
                     <table style={{border: "1px solid black"}}>
+                        <thead>
                         <tr style={{border: "1px solid black"}}>
                             <th style={{border: "1px solid black"}}>code</th>
                             <th style={{border: "1px solid black"}}>name</th>
@@ -57,18 +60,21 @@ export default class App extends Component {
                             <th style={{border: "1px solid black"}}>lon</th>
                             <th style={{border: "1px solid black"}}>type</th>
                         </tr>
+                        </thead>
+                        <tbody>
                         {items.map(item => (
                             <tr key={item.id}>
-                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.code}</td>
-                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.name}</td>
-                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.bikes}</td>
-                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.spaces}</td>
-                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.id}</td>
-                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.lat}</td>
-                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.lon}</td>
-                                <td style={{border: "1px solid black",textAlign:"center"}}>{item.type}</td>
+                                <td style={{border: "1px solid black", textAlign: "center"}}>{item.code}</td>
+                                <td style={{border: "1px solid black", textAlign: "center"}}>{item.name}</td>
+                                <td style={{border: "1px solid black", textAlign: "center"}}>{item.bikes}</td>
+                                <td style={{border: "1px solid black", textAlign: "center"}}>{item.spaces}</td>
+                                <td style={{border: "1px solid black", textAlign: "center"}}>{item.id}</td>
+                                <td style={{border: "1px solid black", textAlign: "center"}}>{item.lat}</td>
+                                <td style={{border: "1px solid black", textAlign: "center"}}>{item.lon}</td>
+                                <td style={{border: "1px solid black", textAlign: "center"}}>{item.type}</td>
                             </tr>
                         ))}
+                        </tbody>
                     </table>
                 </div>
             );
