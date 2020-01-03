@@ -58,9 +58,9 @@ export default class App extends Component {
                 <div>
                     <Map center={[47.505, 19.06]}
                          zoom={13}
-                         width={800}
-                         height={800}
-                         maxZoom={15}
+                         width={1000}
+                         height={1000}
+                         maxZoom={18}
                     >
                         {items.map(item => (
                             <Overlay key={item.id}
