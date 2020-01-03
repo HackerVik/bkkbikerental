@@ -15,7 +15,7 @@ export default class App extends Component {
     }
 
     componentDidMount() {
-        fetch('http://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test')
+        fetch('wss://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test')
             .then(res => res.json())
             .then(json => {
                 this.setState({
