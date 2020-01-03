@@ -79,15 +79,16 @@ export default class App extends Component {
                     </Map>
                     <table style={{border: "1px solid black"}}>
                         <thead>
-                        <tr style={{border: "1px solid black"}}>
+                        <tr style={{border: "1px solid black",
+                            background: "lightblue"}}>
                             <th style={{border: "1px solid black"}}>code</th>
                             <th style={{border: "1px solid black"}}>name</th>
                             <th style={{border: "1px solid black"}}>bikes</th>
                             <th style={{border: "1px solid black"}}>spaces</th>
-                            <th style={{border: "1px solid black"}}>id</th>
-                            <th style={{border: "1px solid black"}}>lat</th>
-                            <th style={{border: "1px solid black"}}>lon</th>
-                            <th style={{border: "1px solid black"}}>type</th>
+                            {/*<th style={{border: "1px solid black"}}>id</th>*/}
+                            {/*<th style={{border: "1px solid black"}}>lat</th>*/}
+                            {/*<th style={{border: "1px solid black"}}>lon</th>*/}
+                            {/*<th style={{border: "1px solid black"}}>type</th>*/}
                         </tr>
                         </thead>
                         <tbody>
@@ -97,10 +98,10 @@ export default class App extends Component {
                                 <td style={{border: "1px solid black", textAlign: "center"}}>{item.name}</td>
                                 <td style={{border: "1px solid black", textAlign: "center"}}>{item.bikes}</td>
                                 <td style={{border: "1px solid black", textAlign: "center"}}>{item.spaces}</td>
-                                <td style={{border: "1px solid black", textAlign: "center"}}>{item.id}</td>
-                                <td style={{border: "1px solid black", textAlign: "center"}}>{item.lat}</td>
-                                <td style={{border: "1px solid black", textAlign: "center"}}>{item.lon}</td>
-                                <td style={{border: "1px solid black", textAlign: "center"}}>{item.type}</td>
+                                {/*<td style={{border: "1px solid black", textAlign: "center"}}>{item.id}</td>*/}
+                                {/*<td style={{border: "1px solid black", textAlign: "center"}}>{item.lat}</td>*/}
+                                {/*<td style={{border: "1px solid black", textAlign: "center"}}>{item.lon}</td>*/}
+                                {/*<td style={{border: "1px solid black", textAlign: "center"}}>{item.type}</td>*/}
                             </tr>
                         ))}
                         </tbody>
