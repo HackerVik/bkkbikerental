@@ -24,8 +24,8 @@ export default class App extends Component {
                 })
             });*/
 
-        let proxyUrl = 'https://cors-anywhere.herokuapp.com/',
-            targetUrl = 'https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test';
+        let proxyUrl = 'http://cors-anywhere.herokuapp.com/',
+            targetUrl = 'http://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test';
         fetch(proxyUrl + targetUrl)
             .then(blob => blob.json())
             .then(data => {
