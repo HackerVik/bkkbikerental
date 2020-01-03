@@ -15,16 +15,16 @@ export default class App extends Component {
     }
 
     componentDidMount() {
-        /*fetch('https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test')
+        fetch('https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test')
             .then(res => res.json())
             .then(json => {
                 this.setState({
                     items: json,
                     isLoaded: true,
                 })
-            });*/
+            });
 
-        let proxyUrl = 'https://cors-anywhere.herokuapp.com/',
+        /*let proxyUrl = 'https://cors-anywhere.herokuapp.com/',
             targetUrl = 'https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test';
         fetch(proxyUrl + targetUrl)
             .then(blob => blob.json())
@@ -40,7 +40,7 @@ export default class App extends Component {
             .catch(e => {
                 console.log(e);
                 return e;
-            });
+            });*/
     }
 
     render() {
