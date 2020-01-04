@@ -72,7 +72,7 @@ export default class App extends Component {
                         display: (isMapView ? "inline" : "none")
                     }}>
                         <Map center={[47.505, 19.06]}
-                             zoom={13}
+                             zoom={13.5}
                              width={1000}
                              height={1000}
                              maxZoom={18}
