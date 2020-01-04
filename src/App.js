@@ -72,10 +72,10 @@ export default class App extends Component {
                         display: (isMapView ? "inline" : "none")
                     }}>
                         <Map center={[47.505, 19.06]}
-                             zoom={13.5}
-                             width={1000}
+                             zoom={14}
+                             width={""}
                              height={1000}
-                             maxZoom={18}
+                             maxZoom={19}
                         >
                             {items.map(item => (
                                 <Overlay key={item.id}
