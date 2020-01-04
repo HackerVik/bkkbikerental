@@ -55,6 +55,7 @@ export default class App extends Component {
                          border: "1px dotted double grey",
                      }}/></div>;
         } else {
+            const isMapView = true;
             return (
                 <div className="App">
                     <div style={{
