@@ -55,34 +55,40 @@ export default class App extends Component {
                      }}/></div>;
         } else {
             return (
-                <div style={{textAlign: "center"}}>
+                <div className="App">
                     <div style={{
                         background: "lightblue",
                         textAlign: "center",
-                        padding: "10em"
+                        padding: "7em"
                     }}>BKKBikeRental
                     </div>
-                    <Map center={[47.505, 19.06]}
-                         zoom={13}
-                         width={1000}
-                         height={1000}
-                         maxZoom={18}
-                    >
-                        {items.map(item => (
-                            <Overlay key={item.id}
-                                     anchor={[item.lat, item.lon]}
-                                     payload={1}
-                                     onClick={({event, anchor, payload}) => {
-                                     }}>
-                                <img style={{
-                                    borderRadius: "50%",
-                                    boxShadow: ".2em .2em .2em grey",
-                                    border: "1px dotted double grey"
-                                }} src={biker}
-                                     width={25} height={25} alt={item.id}/>
-                            </Overlay>
-                        ))}
-                    </Map>
+                    <div style={{
+                        textAlign: "center"
+                    }}>
+                        <Map center={[47.505, 19.06]}
+                             zoom={13}
+                             width={1000}
+                             height={1000}
+                             maxZoom={18}
+                        >
+                            {items.map(item => (
+                                <Overlay key={item.id}
+                                         anchor={[item.lat, item.lon]}
+                                         payload={1}
+                                         onClick={({event, anchor, payload}) => {
+                                         }}>
+                                    <img style={{
+                                        borderRadius: "50%",
+                                        boxShadow: ".2em .2em .2em grey",
+                                        border: "1px dotted double grey"
+                                    }} src={biker}
+                                         width={25}
+                                         height={25}
+                                         alt={item.id}
+                                    />
+                                </Overlay>
+                            ))}
+                        </Map>
                         <table style={{border: "1px solid black"}}>
                             <thead>
                             <tr style={{
@@ -115,6 +121,7 @@ export default class App extends Component {
                             </tbody>
                         </table>
                     </div>
+                </div>
             );
         }
     }
