@@ -20,7 +20,7 @@ export default class App extends Component {
             .then(res => res.json())
             .then(json => {
                 this.setState({
-                    items: json,
+                    items: data.data.list,
                     isLoaded: true,
                 })
             });*/
