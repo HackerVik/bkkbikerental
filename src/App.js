@@ -55,7 +55,13 @@ export default class App extends Component {
                      }}/></div>;
         } else {
             return (
-                <div>
+                <div style={{textAlign: "center"}}>
+                    <div style={{
+                        background: "lightblue",
+                        textAlign: "center",
+                        padding: "10em"
+                    }}>BKKBikeRental
+                    </div>
                     <Map center={[47.505, 19.06]}
                          zoom={13}
                          width={1000}
