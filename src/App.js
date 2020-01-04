@@ -68,7 +68,8 @@ export default class App extends Component {
                     }}>BKKBikeRental
                     </div>
                     <div style={{
-                        textAlign: "center"
+                        textAlign: "center",
+                        display: (isMapView ? "inline" : "none")
                     }}>
                         <Map center={[47.505, 19.06]}
                              zoom={13}
@@ -94,6 +95,8 @@ export default class App extends Component {
                                 </Overlay>
                             ))}
                         </Map>
+                    </div>
+                    <div style={{display: (!isMapView ? "inline" : "none")}}>
                         <table style={{border: "1px solid black"}}>
                             <thead>
                             <tr style={{
