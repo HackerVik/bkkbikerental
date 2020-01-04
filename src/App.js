@@ -62,7 +62,7 @@ export default class App extends Component {
                         background: "lightblue",
                         textAlign: "center",
                         padding: "1em",
-                        fontFamily: "headerfont",
+                        fontFamily: "headerFont",
                         fontSize: "5em",
                         color: "darkblue"
                     }}>BKKBikeRental

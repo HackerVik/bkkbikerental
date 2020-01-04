@@ -38,6 +38,6 @@
 }
 
 @font-face {
-  font-family: 'headerfont';
-  src: local('headerfont'), url("./fonts/Ghoust Outline.otf") format('opentype');
+  font-family: 'headerFont';
+  src: local('headerFont'), url("./fonts/Ghoust Outline.otf") format('opentype');
 }
