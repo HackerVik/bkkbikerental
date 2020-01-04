@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import biker from './biker.gif';
-import Map from 'pigeon-maps'
-import Overlay from 'pigeon-overlay'
+import biker from './images/biker.gif';
+import Map from 'pigeon-maps';
+import Overlay from 'pigeon-overlay';
+import './App.css';
 
 
 export default class App extends Component {
