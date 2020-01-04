@@ -16,33 +16,33 @@ export default class App extends Component {
     }
 
     componentDidMount() {
-        fetch('https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test')
-            .then(res => res.json())
+        // fetch('https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test')
+        //     .then(res => res.json())
+        //     .then(data => {
+        //         this.setState({
+        //             items: data.data.list,
+        //             isLoaded: true,
+        //         });
+        //         return data;
+        //     });
+
+        let proxyUrl = 'https://cors-anywhere.herokuapp.com/',
+            targetUrl = 'https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test';
+        fetch(proxyUrl + targetUrl)
+            .then(blob => blob.json())
             .then(data => {
+                /*console.table(data);
+                console.log(data.data.list);*/
                 this.setState({
                     items: data.data.list,
                     isLoaded: true,
                 });
                 return data;
+            })
+            .catch(e => {
+                console.log(e);
+                return e;
             });
-
-    //     let proxyUrl = 'https://cors-anywhere.herokuapp.com/',
-    //         targetUrl = 'https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test';
-    //     fetch(proxyUrl + targetUrl)
-    //         .then(blob => blob.json())
-    //         .then(data => {
-    //             /*console.table(data);
-    //             console.log(data.data.list);*/
-    //             this.setState({
-    //                 items: data.data.list,
-    //                 isLoaded: true,
-    //             });
-    //             return data;
-    //         })
-    //         .catch(e => {
-    //             console.log(e);
-    //             return e;
-    //         });
     }
 
     render() {
