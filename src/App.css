@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'headerfont';
+  src: local('headerfont'), url("./fonts/Ghoust Outline.otf") format('opentype');
+}
