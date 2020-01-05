@@ -65,6 +65,20 @@ export default class App extends Component {
                         color: "darkblue"
                     }}>BKKBikeRental
                     </div>
+                    <div style={{background: "lightblue"}}>
+                        <button>
+                            <a style={{
+                                textDecoration: "none",
+                                color: "black"
+                            }}
+                               href="https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test">
+                                Raw data
+                            </a>
+                        </button>
+                        <button type="submit"
+                        >Switch to {!isMapView ? "Map" : "Table"} view
+                        </button>
+                    </div>
                     <div style={{
                         textAlign: "center",
                         display: (isMapView ? "inline" : "none")
