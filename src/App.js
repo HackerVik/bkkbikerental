@@ -46,12 +46,7 @@ export default class App extends Component {
         const {isLoaded, items} = this.state;
         if (!isLoaded) {
             return <div className="App">
-                <img alt={"loading"} src={biker}
-                     style={{
-                         borderRadius: "50%",
-                         boxShadow: ".5em .5em .5em grey",
-                         border: "1px dotted double grey",
-                     }}/></div>;
+                <img alt={"loading"} src={biker} className="App-loading"/></div>;
         } else {
             const isMapView = true;
             return (
