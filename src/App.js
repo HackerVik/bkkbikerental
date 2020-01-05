@@ -52,7 +52,7 @@ export default class App extends Component {
             return (
                 <div className="App">
                     <div style={{
-                        background: "lightblue",
+                        background: "#66cccc",
                         textAlign: "center",
                         paddingTop: ".5em",
                         fontFamily: "headerFont",
@@ -60,17 +60,16 @@ export default class App extends Component {
                         color: "darkblue"
                     }}>BKKBikeRental
                     </div>
-                    <div style={{background: "lightblue"}}>
-                        <button>
+                    <div style={{background: "#66cccc"}}>
+                        <button className="App-button">
                             <a style={{
                                 textDecoration: "none",
-                                color: "black"
                             }}
                                href="https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test">
                                 Raw data
                             </a>
                         </button>
-                        <button type="submit"
+                        <button type="submit" className="App-button"
                         >Switch to {!isMapView ? "Map" : "Table"} view
                         </button>
                     </div>
