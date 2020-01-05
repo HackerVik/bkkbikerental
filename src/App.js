@@ -4,9 +4,7 @@ import Map from 'pigeon-maps';
 import Overlay from 'pigeon-overlay';
 import './App.css';
 
-
 export default class App extends Component {
-
     constructor(props) {
         super(props);
         this.state = {
@@ -25,7 +23,6 @@ export default class App extends Component {
         //         });
         //         return data;
         //     });
-
         let proxyUrl = 'https://cors-anywhere.herokuapp.com/',
             targetUrl = 'https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test';
         fetch(proxyUrl + targetUrl)
