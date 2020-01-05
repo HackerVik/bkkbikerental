@@ -79,3 +79,25 @@ button {
     box-shadow: .5em .5em .5em grey;
     border: 1px dotted grey;
 }
+
+.App-button {
+    background: none;
+    border: 2px solid darkblue;
+    color: darkblue;
+    border-radius: 1em;
+    font-weight: bold;
+    font-size: 1em;
+    padding: .3em;
+}
+
+button:hover {
+    border: 2px solid yellow;
+}
+
+a:hover {
+    cursor: default;
+}
+
+a:visited {
+    color: darkblue;
+}
