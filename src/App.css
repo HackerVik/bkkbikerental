@@ -87,7 +87,7 @@ button {
     border-radius: 1em;
     font-weight: bold;
     font-size: 1em;
-    padding: .3em;
+    padding: .3em 1em;
 }
 
 button:hover {
