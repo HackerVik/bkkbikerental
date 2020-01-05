@@ -79,3 +79,18 @@ button {
     box-shadow: .5em .5em .5em grey;
     border: 1px dotted grey;
 }
+
+.App-button {
+    background: none;
+    border: 2px solid darkblue;
+    color: darkblue;
+    border-radius: 1em;
+}
+
+button:hover {
+    border: 2px solid yellow;
+}
+
+a:hover {
+    cursor: default;
+}
