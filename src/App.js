@@ -71,7 +71,7 @@ export default class App extends Component {
                     }}>
                         <Map center={[47.505, 19.06]}
                              zoom={14}
-                             width={""}
+                             width={0}
                              height={1000}
                              maxZoom={19}
                         >
