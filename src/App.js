@@ -95,33 +95,30 @@ export default class App extends Component {
                         </Map>
                     </div>
                     <div style={{display: (!isMapView ? "inline" : "none")}}>
-                        <table style={{border: "1px solid black"}}>
+                        <table>
                             <thead>
-                            <tr style={{
-                                border: "1px solid black",
-                                background: "lightblue"
-                            }}>
-                                <th style={{border: "1px solid black"}}>code</th>
-                                <th style={{border: "1px solid black"}}>name</th>
-                                <th style={{border: "1px solid black"}}>bikes</th>
-                                <th style={{border: "1px solid black"}}>spaces</th>
-                                {/*<th style={{border: "1px solid black"}}>id</th>*/}
-                                {/*<th style={{border: "1px solid black"}}>lat</th>*/}
-                                {/*<th style={{border: "1px solid black"}}>lon</th>*/}
-                                {/*<th style={{border: "1px solid black"}}>type</th>*/}
+                            <tr>
+                                <th>code</th>
+                                <th>name</th>
+                                <th>bikes</th>
+                                <th>spaces</th>
+                                {/*<th>id</th>*/}
+                                {/*<th>lat</th>*/}
+                                {/*<th>lon</th>*/}
+                                {/*<th>type</th>*/}
                             </tr>
                             </thead>
                             <tbody>
                             {items.map(item => (
                                 <tr key={item.id}>
-                                    <td style={{border: "1px solid black", textAlign: "center"}}>{item.code}</td>
-                                    <td style={{border: "1px solid black", textAlign: "center"}}>{item.name}</td>
-                                    <td style={{border: "1px solid black", textAlign: "center"}}>{item.bikes}</td>
-                                    <td style={{border: "1px solid black", textAlign: "center"}}>{item.spaces}</td>
-                                    {/*<td style={{border: "1px solid black", textAlign: "center"}}>{item.id}</td>*/}
-                                    {/*<td style={{border: "1px solid black", textAlign: "center"}}>{item.lat}</td>*/}
-                                    {/*<td style={{border: "1px solid black", textAlign: "center"}}>{item.lon}</td>*/}
-                                    {/*<td style={{border: "1px solid black", textAlign: "center"}}>{item.type}</td>*/}
+                                    <td>{item.code}</td>
+                                    <td>{item.name}</td>
+                                    <td>{item.bikes}</td>
+                                    <td>{item.spaces}</td>
+                                    {/*<td>{item.id}</td>*/}
+                                    {/*<td>{item.lat}</td>*/}
+                                    {/*<td>{item.lon}</td>*/}
+                                    {/*<td>{item.type}</td>*/}
                                 </tr>
                             ))}
                             </tbody>
