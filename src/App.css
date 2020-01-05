@@ -75,6 +75,7 @@ button {
 }
 
 .App-loading {
+    margin-top: 10em;
     border-radius: 50%;
     box-shadow: .5em .5em .5em grey;
     border: 1px dotted grey;

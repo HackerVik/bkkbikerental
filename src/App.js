@@ -54,7 +54,7 @@ export default class App extends Component {
                     <div style={{
                         background: "#66cccc",
                         textAlign: "center",
-                        paddingTop: ".5em",
+                        paddingTop: ".15em",
                         fontFamily: "headerFont",
                         fontSize: "5em",
                         color: "darkblue"
