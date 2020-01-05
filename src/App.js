@@ -28,8 +28,8 @@ export default class App extends Component {
         fetch(proxyUrl + targetUrl)
             .then(blob => blob.json())
             .then(data => {
-                /*console.table(data);
-                console.log(data.data.list);*/
+                // console.table(data);
+                // console.log(data.data.list);
                 this.setState({
                     items: data.data.list,
                     isLoaded: true,
