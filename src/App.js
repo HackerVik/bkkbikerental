@@ -45,7 +45,7 @@ export default class App extends Component {
     render() {
         const {isLoaded, items} = this.state;
         if (!isLoaded) {
-            return <div>
+            return <div className="App">
                 <img alt={"loading"} src={biker}
                      style={{
                          borderRadius: "50%",
