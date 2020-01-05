@@ -98,7 +98,8 @@ export default class App extends Component {
                                     <img style={{
                                         borderRadius: "50%",
                                         boxShadow: ".2em .2em .2em grey",
-                                        border: "1px dotted double grey"
+                                        border: "1px dotted double grey",
+                                        opacity: ".8"
                                     }} src={biker}
                                          width={25}
                                          height={25}
