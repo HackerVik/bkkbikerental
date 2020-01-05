@@ -1,0 +1,1461 @@
+{
+  "version": 2,
+  "status": "OK",
+  "code": 200,
+  "text": "OK",
+  "currentTime": 1578258216313,
+  "data": {
+    "list": [
+      {
+        "id": "1758855",
+        "lat": 47.533687300000004,
+        "lon": 19.0355124,
+        "name": "Bécsi út - Óbudai Egyetem",
+        "code": "0303",
+        "type": "7inch",
+        "bikes": 17,
+        "spaces": 24
+      },
+      {
+        "id": "250969",
+        "lat": 47.503449,
+        "lon": 19.0608268,
+        "name": "Andrássy út - Nagymező utca",
+        "code": "0609",
+        "type": "7inch",
+        "bikes": 12,
+        "spaces": 22
+      },
+      {
+        "id": "366483",
+        "lat": 47.4962862,
+        "lon": 19.033789600000002,
+        "name": "Krisztina tér",
+        "code": "0106",
+        "type": "7inch",
+        "bikes": 5,
+        "spaces": 30
+      },
+      {
+        "id": "246741",
+        "lat": 47.4976544,
+        "lon": 19.0411842,
+        "name": "Clark Ádám tér",
+        "code": "0103",
+        "type": "character",
+        "bikes": 15,
+        "spaces": 16
+      },
+      {
+        "id": "7206890",
+        "lat": 47.5130848529764,
+        "lon": 19.058103561401367,
+        "name": "Westend",
+        "code": "0614",
+        "type": "7inch",
+        "bikes": 9,
+        "spaces": 20
+      },
+      {
+        "id": "13483215",
+        "lat": 47.52246,
+        "lon": 19.082262,
+        "name": "Vágány utca-Róbert Károly körút",
+        "code": "1402",
+        "type": "7inch",
+        "bikes": 9,
+        "spaces": 16
+      },
+      {
+        "id": "13481823",
+        "lat": 47.478381,
+        "lon": 19.059869,
+        "name": "Műegyetem rakpart – R épület",
+        "code": "1117",
+        "type": "7inch",
+        "bikes": 17,
+        "spaces": 20
+      },
+      {
+        "id": "267290",
+        "lat": 47.498409900000006,
+        "lon": 19.057342600000002,
+        "name": "Rumbach Sebestyén utca - BKK",
+        "code": "0709",
+        "type": "7inch",
+        "bikes": 12,
+        "spaces": 15
+      },
+      {
+        "id": "250960",
+        "lat": 47.50777,
+        "lon": 19.0595323,
+        "name": "Teréz körút - Szondi utca",
+        "code": "0605",
+        "type": "character",
+        "bikes": 9,
+        "spaces": 22
+      },
+      {
+        "id": "422300",
+        "lat": 47.483412900000005,
+        "lon": 19.0678026,
+        "name": "Bakáts tér",
+        "code": "0908",
+        "type": "10inch",
+        "bikes": 12,
+        "spaces": 18
+      },
+      {
+        "id": "253398",
+        "lat": 47.4842731,
+        "lon": 19.053654400000003,
+        "name": "Műegyetem",
+        "code": "1102",
+        "type": "character",
+        "bikes": 24,
+        "spaces": 30
+      },
+      {
+        "id": "253430",
+        "lat": 47.5189036,
+        "lon": 19.0814144,
+        "name": "Széchenyi fürdő",
+        "code": "1401",
+        "type": "10inch",
+        "bikes": 21,
+        "spaces": 22
+      },
+      {
+        "id": "13481783",
+        "lat": 47.485182,
+        "lon": 19.064815,
+        "name": "Ráday utca - Kinizsi utca",
+        "code": "0911",
+        "type": "7inch",
+        "bikes": 12,
+        "spaces": 14
+      },
+      {
+        "id": "250963",
+        "lat": 47.507744800000005,
+        "lon": 19.072833600000003,
+        "name": "Lövölde tér",
+        "code": "0606",
+        "type": "7inch",
+        "bikes": 15,
+        "spaces": 16
+      },
+      {
+        "id": "3630187",
+        "lat": 47.53502263723401,
+        "lon": 19.060120582580563,
+        "name": "Népfürdő utca - Dunavirág utca",
+        "code": "1317",
+        "type": "7inch",
+        "bikes": 12,
+        "spaces": 20
+      },
+      {
+        "id": "267292",
+        "lat": 47.4997011,
+        "lon": 19.025695600000002,
+        "name": "Déli pályaudvar",
+        "code": "0105",
+        "type": "10inch",
+        "bikes": 15,
+        "spaces": 28
+      },
+      {
+        "id": "13483180",
+        "lat": 47.52551,
+        "lon": 19.088246,
+        "name": "Rákosrendező vasútállomás",
+        "code": "1322",
+        "type": "7inch",
+        "bikes": 7,
+        "spaces": 22
+      },
+      {
+        "id": "250966",
+        "lat": 47.505865,
+        "lon": 19.063948,
+        "name": "Oktogon",
+        "code": "0607",
+        "type": "10inch",
+        "bikes": 14,
+        "spaces": 16
+      },
+      {
+        "id": "399977",
+        "lat": 47.5108143,
+        "lon": 19.032489400000003,
+        "name": "Mechwart liget",
+        "code": "0207",
+        "type": "7inch",
+        "bikes": 13,
+        "spaces": 22
+      },
+      {
+        "id": "6503977",
+        "lat": 47.529499,
+        "lon": 19.065331,
+        "name": "Nordic Light Offices",
+        "code": "1319",
+        "type": "7inch",
+        "bikes": 14,
+        "spaces": 20
+      },
+      {
+        "id": "13483168",
+        "lat": 47.52874,
+        "lon": 19.069095,
+        "name": "Kassák Lajos utca",
+        "code": "1321",
+        "type": "7inch",
+        "bikes": 11,
+        "spaces": 20
+      },
+      {
+        "id": "3629999",
+        "lat": 47.519892500000005,
+        "lon": 19.0439107,
+        "name": "Hajós Alfréd Uszoda",
+        "code": "1308",
+        "type": "7inch",
+        "bikes": 14,
+        "spaces": 22
+      },
+      {
+        "id": "253202",
+        "lat": 47.4963867,
+        "lon": 19.0701419,
+        "name": "Blaha Lujza tér",
+        "code": "0809",
+        "type": "10inch",
+        "bikes": 17,
+        "spaces": 20
+      },
+      {
+        "id": "253201",
+        "lat": 47.5009832,
+        "lon": 19.0831753,
+        "name": "Keleti pályaudvar",
+        "code": "0808",
+        "type": "10inch",
+        "bikes": 29,
+        "spaces": 36
+      },
+      {
+        "id": "366527",
+        "lat": 47.5125947,
+        "lon": 19.0639138,
+        "name": "Ferdinánd híd - Podmaniczky utca",
+        "code": "0613",
+        "type": "7inch",
+        "bikes": 8,
+        "spaces": 20
+      },
+      {
+        "id": "13481833",
+        "lat": 47.473454,
+        "lon": 19.059336,
+        "name": "Műegyetem, Q épület",
+        "code": "1115",
+        "type": "7inch",
+        "bikes": 23,
+        "spaces": 24
+      },
+      {
+        "id": "3630218",
+        "lat": 47.469040400000004,
+        "lon": 19.0704792,
+        "name": "MÜPA-Nemzeti Színház H",
+        "code": "0909",
+        "type": "7inch",
+        "bikes": 21,
+        "spaces": 24
+      },
+      {
+        "id": "253203",
+        "lat": 47.486437200000005,
+        "lon": 19.0655614,
+        "name": "Markusovszky tér",
+        "code": "0901",
+        "type": "character",
+        "bikes": 12,
+        "spaces": 15
+      },
+      {
+        "id": "366529",
+        "lat": 47.489343,
+        "lon": 19.075943,
+        "name": "Horváth Mihály tér",
+        "code": "0810",
+        "type": "10inch",
+        "bikes": 21,
+        "spaces": 26
+      },
+      {
+        "id": "248389",
+        "lat": 47.508584589786686,
+        "lon": 19.048211574554443,
+        "name": "Szalay utca - Falk Miksa utca",
+        "code": "0502",
+        "type": "character",
+        "bikes": 14,
+        "spaces": 14
+      },
+      {
+        "id": "366522",
+        "lat": 47.519397000000005,
+        "lon": 19.0381165,
+        "name": "Császár - Komjádi Uszoda",
+        "code": "0205",
+        "type": "7inch",
+        "bikes": 8,
+        "spaces": 22
+      },
+      {
+        "id": "3630056",
+        "lat": 47.53829657897965,
+        "lon": 19.06123638153076,
+        "name": "Duna Aréna",
+        "code": "1311",
+        "type": "10inch",
+        "bikes": 17,
+        "spaces": 20
+      },
+      {
+        "id": "253205",
+        "lat": 47.484942700000005,
+        "lon": 19.059686600000003,
+        "name": "Corvinus Egyetem",
+        "code": "0903",
+        "type": "character",
+        "bikes": 5,
+        "spaces": 22
+      },
+      {
+        "id": "366523",
+        "lat": 47.5083756,
+        "lon": 19.0234753,
+        "name": "Fény utcai piac",
+        "code": "0206",
+        "type": "10inch",
+        "bikes": 14,
+        "spaces": 24
+      },
+      {
+        "id": "366525",
+        "lat": 47.5106495,
+        "lon": 19.026263,
+        "name": "Millenáris park - Fény utca",
+        "code": "0208",
+        "type": "character",
+        "bikes": 0,
+        "spaces": 0
+      },
+      {
+        "id": "1758834",
+        "lat": 47.527418100000006,
+        "lon": 19.039118300000002,
+        "name": "Szépvölgyi út H",
+        "code": "0302",
+        "type": "character",
+        "bikes": 12,
+        "spaces": 16
+      },
+      {
+        "id": "246729",
+        "lat": 47.50648270000001,
+        "lon": 19.0392899,
+        "name": "Batthyány tér",
+        "code": "0101",
+        "type": "10inch",
+        "bikes": 15,
+        "spaces": 28
+      },
+      {
+        "id": "13484365",
+        "lat": 47.531066,
+        "lon": 19.076295,
+        "name": "Hajdú utca - Szegedi út",
+        "code": "1323",
+        "type": "7inch",
+        "bikes": 7,
+        "spaces": 13
+      },
+      {
+        "id": "3630041",
+        "lat": 47.535935305261525,
+        "lon": 19.052846431732178,
+        "name": "Zenélőkút",
+        "code": "1310",
+        "type": "10inch",
+        "bikes": 14,
+        "spaces": 22
+      },
+      {
+        "id": "13481648",
+        "lat": 47.503625,
+        "lon": 19.079058,
+        "name": "Bethlen Gábor tér",
+        "code": "0711",
+        "type": "7inch",
+        "bikes": 19,
+        "spaces": 22
+      },
+      {
+        "id": "366539",
+        "lat": 47.4856895,
+        "lon": 19.074673400000002,
+        "name": "Corvin sétány",
+        "code": "0812",
+        "type": "10inch",
+        "bikes": 13,
+        "spaces": 22
+      },
+      {
+        "id": "366538",
+        "lat": 47.487840500000004,
+        "lon": 19.0242635,
+        "name": "BAH csomópont",
+        "code": "1201",
+        "type": "10inch",
+        "bikes": 12,
+        "spaces": 30
+      },
+      {
+        "id": "13481767",
+        "lat": 47.496162,
+        "lon": 19.05998,
+        "name": "Károly körút (Astoria M) - Zsinagóga",
+        "code": "0712",
+        "type": "7inch",
+        "bikes": 12,
+        "spaces": 16
+      },
+      {
+        "id": "253412",
+        "lat": 47.4732332,
+        "lon": 19.0525996,
+        "name": "Budafoki út - Schönherz Kollégium",
+        "code": "1106",
+        "type": "character",
+        "bikes": 13,
+        "spaces": 32
+      },
+      {
+        "id": "335161",
+        "lat": 47.5122305,
+        "lon": 19.038191700000002,
+        "name": "Bem József tér",
+        "code": "0203",
+        "type": "7inch",
+        "bikes": 11,
+        "spaces": 15
+      },
+      {
+        "id": "253418",
+        "lat": 47.518127,
+        "lon": 19.0514936,
+        "name": "Szent István park",
+        "code": "1302",
+        "type": "character",
+        "bikes": 10,
+        "spaces": 22
+      },
+      {
+        "id": "366530",
+        "lat": 47.4949415,
+        "lon": 19.0771975,
+        "name": "II. János Pál Pápa tér M",
+        "code": "0811",
+        "type": "10inch",
+        "bikes": 8,
+        "spaces": 22
+      },
+      {
+        "id": "366533",
+        "lat": 47.474274300000005,
+        "lon": 19.047148500000002,
+        "name": "Újbuda-központ M",
+        "code": "1109",
+        "type": "10inch",
+        "bikes": 20,
+        "spaces": 32
+      },
+      {
+        "id": "885407",
+        "lat": 47.5069327,
+        "lon": 19.0255101,
+        "name": "Széll Kálmán tér",
+        "code": "0210",
+        "type": "10inch",
+        "bikes": 16,
+        "spaces": 24
+      },
+      {
+        "id": "366535",
+        "lat": 47.4754951,
+        "lon": 19.041299000000002,
+        "name": "Kosztolányi Dezső tér",
+        "code": "1111",
+        "type": "10inch",
+        "bikes": 20,
+        "spaces": 32
+      },
+      {
+        "id": "253414",
+        "lat": 47.477181,
+        "lon": 19.047611,
+        "name": "Móricz Zsigmond körtér",
+        "code": "1107",
+        "type": "7inch",
+        "bikes": 1,
+        "spaces": 22
+      },
+      {
+        "id": "366534",
+        "lat": 47.4786141,
+        "lon": 19.040869800000003,
+        "name": "Villányi út - Tas vezér utca",
+        "code": "1110",
+        "type": "character",
+        "bikes": 19,
+        "spaces": 30
+      },
+      {
+        "id": "1758950",
+        "lat": 47.508747,
+        "lon": 19.017509500000003,
+        "name": "Városmajor - Nyúl utca",
+        "code": "1204",
+        "type": "character",
+        "bikes": 13,
+        "spaces": 15
+      },
+      {
+        "id": "253417",
+        "lat": 47.513609,
+        "lon": 19.0481221,
+        "name": "Jászai Mari tér",
+        "code": "1301",
+        "type": "character",
+        "bikes": 3,
+        "spaces": 15
+      },
+      {
+        "id": "366537",
+        "lat": 47.4826373,
+        "lon": 19.0304812,
+        "name": "Villányi út - Karolina út",
+        "code": "1113",
+        "type": "character",
+        "bikes": 1,
+        "spaces": 32
+      },
+      {
+        "id": "253416",
+        "lat": 47.4734835,
+        "lon": 19.0633716,
+        "name": "Pázmány Péter sétány - ELTE",
+        "code": "1108",
+        "type": "character",
+        "bikes": 27,
+        "spaces": 30
+      },
+      {
+        "id": "366536",
+        "lat": 47.4792238,
+        "lon": 19.055617400000003,
+        "name": "Bertalan Lajos utca - Stoczek utca",
+        "code": "1112",
+        "type": "10inch",
+        "bikes": 14,
+        "spaces": 24
+      },
+      {
+        "id": "246738",
+        "lat": 47.5104987,
+        "lon": 19.0343632,
+        "name": "Horvát utca",
+        "code": "0202",
+        "type": "character",
+        "bikes": 2,
+        "spaces": 15
+      },
+      {
+        "id": "13483140",
+        "lat": 47.469366,
+        "lon": 19.059271,
+        "name": "Infopark - aluljáró",
+        "code": "1119",
+        "type": "7inch",
+        "bikes": 17,
+        "spaces": 31
+      },
+      {
+        "id": "246739",
+        "lat": 47.514997,
+        "lon": 19.0398292,
+        "name": "Margit híd - Buda",
+        "code": "0201",
+        "type": "10inch",
+        "bikes": 11,
+        "spaces": 19
+      },
+      {
+        "id": "3630150",
+        "lat": 47.525518356433146,
+        "lon": 19.056848287582397,
+        "name": "Kárpát utca - Tisza utca",
+        "code": "1316",
+        "type": "7inch",
+        "bikes": 11,
+        "spaces": 14
+      },
+      {
+        "id": "253392",
+        "lat": 47.4796113,
+        "lon": 19.066094200000002,
+        "name": "Boráros tér",
+        "code": "0904",
+        "type": "10inch",
+        "bikes": 22,
+        "spaces": 22
+      },
+      {
+        "id": "13483148",
+        "lat": 47.530329,
+        "lon": 19.080443,
+        "name": "Béke tér",
+        "code": "1320",
+        "type": "7inch",
+        "bikes": 15,
+        "spaces": 30
+      },
+      {
+        "id": "249724",
+        "lat": 47.509390200000006,
+        "lon": 19.069194,
+        "name": "Kodály körönd",
+        "code": "0604",
+        "type": "character",
+        "bikes": 4,
+        "spaces": 18
+      },
+      {
+        "id": "253393",
+        "lat": 47.48450416434264,
+        "lon": 19.05345797538757,
+        "name": "Szent Gellért tér",
+        "code": "1101",
+        "type": "7inch",
+        "bikes": 18,
+        "spaces": 22
+      },
+      {
+        "id": "246733",
+        "lat": 47.503448000000006,
+        "lon": 19.039722,
+        "name": "Szilágyi Dezső tér",
+        "code": "0102",
+        "type": "character",
+        "bikes": 1,
+        "spaces": 15
+      },
+      {
+        "id": "246735",
+        "lat": 47.4913073,
+        "lon": 19.045120100000002,
+        "name": "Döbrentei tér",
+        "code": "0104",
+        "type": "character",
+        "bikes": 1,
+        "spaces": 22
+      },
+      {
+        "id": "253422",
+        "lat": 47.5182349,
+        "lon": 19.0449424,
+        "name": "Margitsziget",
+        "code": "1304",
+        "type": "7inch",
+        "bikes": 18,
+        "spaces": 30
+      },
+      {
+        "id": "253423",
+        "lat": 47.485875,
+        "lon": 19.069438,
+        "name": "Üllői út - Ferenc Körút",
+        "code": "0902",
+        "type": "10inch",
+        "bikes": 21,
+        "spaces": 22
+      },
+      {
+        "id": "341948",
+        "lat": 47.497502000000004,
+        "lon": 19.048008000000003,
+        "name": "Apáczai Csere János utca",
+        "code": "0509",
+        "type": "10inch",
+        "bikes": 10,
+        "spaces": 15
+      },
+      {
+        "id": "248400",
+        "lat": 47.506967,
+        "lon": 19.054855,
+        "name": "Bajcsy-Zsilinszky út - Kálmán Imre utca",
+        "code": "0503",
+        "type": "character",
+        "bikes": 5,
+        "spaces": 15
+      },
+      {
+        "id": "253420",
+        "lat": 47.5175136,
+        "lon": 19.0600105,
+        "name": "Váci út - Victor Hugo utca",
+        "code": "1303",
+        "type": "character",
+        "bikes": 9,
+        "spaces": 16
+      },
+      {
+        "id": "492505",
+        "lat": 47.4817242,
+        "lon": 19.073796400000003,
+        "name": "Ferenc tér",
+        "code": "0906",
+        "type": "7inch",
+        "bikes": 22,
+        "spaces": 30
+      },
+      {
+        "id": "13481891",
+        "lat": 47.475277,
+        "lon": 19.061092,
+        "name": "Pázmány Péter sétány - Északi tömb",
+        "code": "1118",
+        "type": "7inch",
+        "bikes": 21,
+        "spaces": 30
+      },
+      {
+        "id": "1758783",
+        "lat": 47.507784300000004,
+        "lon": 19.035032400000002,
+        "name": "Csalogány utca - Medve utca",
+        "code": "0211",
+        "type": "character",
+        "bikes": 10,
+        "spaces": 15
+      },
+      {
+        "id": "253426",
+        "lat": 47.514534000000005,
+        "lon": 19.052543,
+        "name": "Pannónia utca - Raoul Wallenberg utca",
+        "code": "1305",
+        "type": "character",
+        "bikes": 1,
+        "spaces": 15
+      },
+      {
+        "id": "249291",
+        "lat": 47.491311100000004,
+        "lon": 19.0582253,
+        "name": "Károlyi utca",
+        "code": "0514",
+        "type": "7inch",
+        "bikes": 17,
+        "spaces": 22
+      },
+      {
+        "id": "492500",
+        "lat": 47.5140116,
+        "lon": 19.036835200000002,
+        "name": "Margit körút - Tölgyfa utca",
+        "code": "0209",
+        "type": "character",
+        "bikes": 12,
+        "spaces": 20
+      },
+      {
+        "id": "1758935",
+        "lat": 47.490470933961404,
+        "lon": 19.018718004226685,
+        "name": "Csörsz utca - MOM Kulturális Központ",
+        "code": "1203",
+        "type": "character",
+        "bikes": 9,
+        "spaces": 12
+      },
+      {
+        "id": "11362086",
+        "lat": 47.47290943841018,
+        "lon": 19.072437286376953,
+        "name": "MILL Park",
+        "code": "0912",
+        "type": "7inch",
+        "bikes": 19,
+        "spaces": 20
+      },
+      {
+        "id": "373011",
+        "lat": 47.5247674,
+        "lon": 19.062926,
+        "name": "Dózsa György út M",
+        "code": "1307",
+        "type": "7inch",
+        "bikes": 2,
+        "spaces": 32
+      },
+      {
+        "id": "373010",
+        "lat": 47.5197221,
+        "lon": 19.0613821,
+        "name": "Váci út-Bulcsú utca",
+        "code": "1306",
+        "type": "character",
+        "bikes": 18,
+        "spaces": 30
+      },
+      {
+        "id": "253113",
+        "lat": 47.498180000000005,
+        "lon": 19.065538,
+        "name": "Kéthly Anna tér",
+        "code": "0707",
+        "type": "character",
+        "bikes": 8,
+        "spaces": 23
+      },
+      {
+        "id": "13481862",
+        "lat": 47.480102,
+        "lon": 19.057696,
+        "name": "Moholy-Nagy Művészeti Egyetem",
+        "code": "1114",
+        "type": "7inch",
+        "bikes": 14,
+        "spaces": 19
+      },
+      {
+        "id": "253111",
+        "lat": 47.501500400000005,
+        "lon": 19.0753001,
+        "name": "Rózsák tere",
+        "code": "0706",
+        "type": "character",
+        "bikes": 11,
+        "spaces": 15
+      },
+      {
+        "id": "253199",
+        "lat": 47.4897361,
+        "lon": 19.0664453,
+        "name": "Mikszáth Kálmán tér",
+        "code": "0807",
+        "type": "character",
+        "bikes": 3,
+        "spaces": 15
+      },
+      {
+        "id": "418095",
+        "lat": 47.480650700000005,
+        "lon": 19.077249600000002,
+        "name": "SOTE - Vendel utca",
+        "code": "0907",
+        "type": "7inch",
+        "bikes": 25,
+        "spaces": 30
+      },
+      {
+        "id": "3630024",
+        "lat": 47.52759394279014,
+        "lon": 19.04708504676819,
+        "name": "Palatinus Strand",
+        "code": "1309",
+        "type": "10inch",
+        "bikes": 12,
+        "spaces": 13
+      },
+      {
+        "id": "253118",
+        "lat": 47.4957865,
+        "lon": 19.0666027,
+        "name": "Gyulai Pál utca - Rákóczi út",
+        "code": "0801",
+        "type": "character",
+        "bikes": 11,
+        "spaces": 22
+      },
+      {
+        "id": "253117",
+        "lat": 47.497076,
+        "lon": 19.062075,
+        "name": "Wesselényi utca - Síp utca",
+        "code": "0708",
+        "type": "character",
+        "bikes": 1,
+        "spaces": 15
+      },
+      {
+        "id": "253119",
+        "lat": 47.4942604,
+        "lon": 19.060365100000002,
+        "name": "Astoria",
+        "code": "0802",
+        "type": "10inch",
+        "bikes": 25,
+        "spaces": 22
+      },
+      {
+        "id": "1758888",
+        "lat": 47.540099700000006,
+        "lon": 19.030913,
+        "name": "Szent Margit Kórház",
+        "code": "0305",
+        "type": "character",
+        "bikes": 11,
+        "spaces": 12
+      },
+      {
+        "id": "8430499",
+        "lat": 47.47491821394218,
+        "lon": 19.099345207214355,
+        "name": "Népliget M (buszpályaudvar)",
+        "code": "0910",
+        "type": "character",
+        "bikes": 5,
+        "spaces": 12
+      },
+      {
+        "id": "1758923",
+        "lat": 47.4904184,
+        "lon": 19.0240891,
+        "name": "MOM Park",
+        "code": "1202",
+        "type": "10inch",
+        "bikes": 15,
+        "spaces": 24
+      },
+      {
+        "id": "3630097",
+        "lat": 47.53326244689306,
+        "lon": 19.066386222839355,
+        "name": "Árpád-híd M Észak",
+        "code": "1313",
+        "type": "10inch",
+        "bikes": 13,
+        "spaces": 0
+      },
+      {
+        "id": "1758809",
+        "lat": 47.5279978,
+        "lon": 19.0385265,
+        "name": "Kolosy tér",
+        "code": "0301",
+        "type": "10inch",
+        "bikes": 12,
+        "spaces": 24
+      },
+      {
+        "id": "253401",
+        "lat": 47.479368900000004,
+        "lon": 19.0515593,
+        "name": "Gárdonyi tér",
+        "code": "1103",
+        "type": "character",
+        "bikes": 0,
+        "spaces": 14
+      },
+      {
+        "id": "248587",
+        "lat": 47.502877700000006,
+        "lon": 19.0512926,
+        "name": "Szabadság tér",
+        "code": "0506",
+        "type": "10inch",
+        "bikes": 18,
+        "spaces": 22
+      },
+      {
+        "id": "253122",
+        "lat": 47.4936992,
+        "lon": 19.066890700000002,
+        "name": "Kőfaragó utca - Vas utca",
+        "code": "0803",
+        "type": "character",
+        "bikes": 1,
+        "spaces": 15
+      },
+      {
+        "id": "253407",
+        "lat": 47.4760183,
+        "lon": 19.048556400000002,
+        "name": "Kőrösy József utca",
+        "code": "1105",
+        "type": "character",
+        "bikes": 6,
+        "spaces": 22
+      },
+      {
+        "id": "253406",
+        "lat": 47.4763919,
+        "lon": 19.0589468,
+        "name": "Petőfi híd - Buda",
+        "code": "1104",
+        "type": "character",
+        "bikes": 14,
+        "spaces": 22
+      },
+      {
+        "id": "3630138",
+        "lat": 47.52937243399478,
+        "lon": 19.06023859977722,
+        "name": "Párkány utca - Viza utca",
+        "code": "1315",
+        "type": "7inch",
+        "bikes": 8,
+        "spaces": 15
+      },
+      {
+        "id": "248707",
+        "lat": 47.4970858,
+        "lon": 19.0495527,
+        "name": "Dorottya utca - Wekerle Sándor utca",
+        "code": "0510",
+        "type": "character",
+        "bikes": 0,
+        "spaces": 0
+      },
+      {
+        "id": "13483194",
+        "lat": 47.53345,
+        "lon": 19.07375,
+        "name": "Pap Károly utca",
+        "code": "1324",
+        "type": "7inch",
+        "bikes": 12,
+        "spaces": 20
+      },
+      {
+        "id": "248709",
+        "lat": 47.4946769,
+        "lon": 19.055980700000003,
+        "name": "Vitkovics Mihály utca - Városház utca",
+        "code": "0512",
+        "type": "character",
+        "bikes": 18,
+        "spaces": 14
+      },
+      {
+        "id": "248708",
+        "lat": 47.4960511,
+        "lon": 19.0488669,
+        "name": "Vigadó tér",
+        "code": "0511",
+        "type": "10inch",
+        "bikes": 15,
+        "spaces": 22
+      },
+      {
+        "id": "367673",
+        "lat": 47.4953128,
+        "lon": 19.0239319,
+        "name": "Alkotás utca - Márvány utca",
+        "code": "0107",
+        "type": "7inch",
+        "bikes": 16,
+        "spaces": 29
+      },
+      {
+        "id": "249479",
+        "lat": 47.487173000000006,
+        "lon": 19.05722,
+        "name": "Fővám tér",
+        "code": "0515",
+        "type": "10inch",
+        "bikes": 9,
+        "spaces": 30
+      },
+      {
+        "id": "248701",
+        "lat": 47.500756100000004,
+        "lon": 19.0471444,
+        "name": "Akadémia",
+        "code": "0507",
+        "type": "10inch",
+        "bikes": 0,
+        "spaces": 15
+      },
+      {
+        "id": "248705",
+        "lat": 47.497838,
+        "lon": 19.0535618,
+        "name": "Deák tér",
+        "code": "0518",
+        "type": "10inch",
+        "bikes": 18,
+        "spaces": 18
+      },
+      {
+        "id": "248704",
+        "lat": 47.499043900000004,
+        "lon": 19.054451200000003,
+        "name": "Erzsébet tér",
+        "code": "0508",
+        "type": "10inch",
+        "bikes": 17,
+        "spaces": 17
+      },
+      {
+        "id": "13481846",
+        "lat": 47.477665,
+        "lon": 19.057972,
+        "name": "Egry József utca",
+        "code": "1116",
+        "type": "7inch",
+        "bikes": 17,
+        "spaces": 20
+      },
+      {
+        "id": "249482",
+        "lat": 47.492536400000006,
+        "lon": 19.0565918,
+        "name": "Ferenciek tere",
+        "code": "0516",
+        "type": "10inch",
+        "bikes": 3,
+        "spaces": 15
+      },
+      {
+        "id": "1610532",
+        "lat": 47.524491700000006,
+        "lon": 19.0370469,
+        "name": "Zsigmond tér",
+        "code": "0212",
+        "type": "7inch",
+        "bikes": 14,
+        "spaces": 19
+      },
+      {
+        "id": "249485",
+        "lat": 47.511278000000004,
+        "lon": 19.0574482,
+        "name": "Nyugati pályaudvar",
+        "code": "0603",
+        "type": "10inch",
+        "bikes": 7,
+        "spaces": 22
+      },
+      {
+        "id": "255236",
+        "lat": 47.4896675,
+        "lon": 19.061339800000002,
+        "name": "Kálvin tér",
+        "code": "0905",
+        "type": "10inch",
+        "bikes": 27,
+        "spaces": 30
+      },
+      {
+        "id": "249484",
+        "lat": 47.5142493,
+        "lon": 19.0766215,
+        "name": "Hősök tere",
+        "code": "0602",
+        "type": "10inch",
+        "bikes": 19,
+        "spaces": 22
+      },
+      {
+        "id": "255237",
+        "lat": 47.498702300000005,
+        "lon": 19.0594123,
+        "name": "Gozsdu udvar",
+        "code": "0701",
+        "type": "7inch",
+        "bikes": 3,
+        "spaces": 15
+      },
+      {
+        "id": "248398",
+        "lat": 47.511866000000005,
+        "lon": 19.051350300000003,
+        "name": "Szent István körút - Vígszínház",
+        "code": "0501",
+        "type": "7inch",
+        "bikes": 15,
+        "spaces": 22
+      },
+      {
+        "id": "255235",
+        "lat": 47.506475,
+        "lon": 19.0600606,
+        "name": "Jókai utca - Zichy Jenő utca",
+        "code": "0608",
+        "type": "7inch",
+        "bikes": 18,
+        "spaces": 15
+      },
+      {
+        "id": "255232",
+        "lat": 47.503254068743864,
+        "lon": 19.05425190925598,
+        "name": "Podmaniczky tér",
+        "code": "0505",
+        "type": "10inch",
+        "bikes": 0,
+        "spaces": 0
+      },
+      {
+        "id": "3630088",
+        "lat": 47.53802858700534,
+        "lon": 19.068907499313354,
+        "name": "Forgách utca M",
+        "code": "1312",
+        "type": "7inch",
+        "bikes": 10,
+        "spaces": 16
+      },
+      {
+        "id": "251957",
+        "lat": 47.500728,
+        "lon": 19.0567898,
+        "name": "Andrássy út - Káldy Gyula utca",
+        "code": "0610",
+        "type": "character",
+        "bikes": 7,
+        "spaces": 15
+      },
+      {
+        "id": "1758992",
+        "lat": 47.5096587,
+        "lon": 19.0089636,
+        "name": "Szent János Kórház",
+        "code": "1206",
+        "type": "10inch",
+        "bikes": 8,
+        "spaces": 15
+      },
+      {
+        "id": "249480",
+        "lat": 47.497058,
+        "lon": 19.055126100000003,
+        "name": "Városháza Park",
+        "code": "0517",
+        "type": "10inch",
+        "bikes": 21,
+        "spaces": 29
+      },
+      {
+        "id": "1758868",
+        "lat": 47.5323153,
+        "lon": 19.0406321,
+        "name": "Lajos utca - Nagyszombat utca",
+        "code": "0304",
+        "type": "character",
+        "bikes": 12,
+        "spaces": 15
+      },
+      {
+        "id": "3630194",
+        "lat": 47.521555000000006,
+        "lon": 19.0533237,
+        "name": "Gogol utca - Pozsonyi utca",
+        "code": "1318",
+        "type": "7inch",
+        "bikes": 10,
+        "spaces": 15
+      },
+      {
+        "id": "1758905",
+        "lat": 47.5389853,
+        "lon": 19.0359388,
+        "name": "Kiscelli utca - Zápor utca",
+        "code": "0306",
+        "type": "character",
+        "bikes": 4,
+        "spaces": 20
+      },
+      {
+        "id": "248710",
+        "lat": 47.4916648,
+        "lon": 19.052899500000002,
+        "name": "Március 15. tér",
+        "code": "0513",
+        "type": "10inch",
+        "bikes": 16,
+        "spaces": 22
+      },
+      {
+        "id": "253194",
+        "lat": 47.492901200000006,
+        "lon": 19.07139,
+        "name": "Rákóczi tér",
+        "code": "0804",
+        "type": "10inch",
+        "bikes": 13,
+        "spaces": 23
+      },
+      {
+        "id": "253196",
+        "lat": 47.4896794,
+        "lon": 19.070491500000003,
+        "name": "József körút - Baross utca",
+        "code": "0806",
+        "type": "character",
+        "bikes": 3,
+        "spaces": 24
+      },
+      {
+        "id": "253195",
+        "lat": 47.49194910000001,
+        "lon": 19.062232100000003,
+        "name": "Bródy Sándor utca - Múzeum körút",
+        "code": "0805",
+        "type": "7inch",
+        "bikes": 6,
+        "spaces": 15
+      },
+      {
+        "id": "246778",
+        "lat": 47.507837,
+        "lon": 19.0270598,
+        "name": "Széna tér",
+        "code": "0204",
+        "type": "10inch",
+        "bikes": 15,
+        "spaces": 22
+      },
+      {
+        "id": "251960",
+        "lat": 47.5096908,
+        "lon": 19.0552955,
+        "name": "Nyugati tér",
+        "code": "0611",
+        "type": "10inch",
+        "bikes": 10,
+        "spaces": 30
+      },
+      {
+        "id": "253105",
+        "lat": 47.504452,
+        "lon": 19.0854323,
+        "name": "Garay tér",
+        "code": "0703",
+        "type": "character",
+        "bikes": 7,
+        "spaces": 15
+      },
+      {
+        "id": "13481612",
+        "lat": 47.502238,
+        "lon": 19.071814,
+        "name": "Almássy tér",
+        "code": "0710",
+        "type": "7inch",
+        "bikes": 9,
+        "spaces": 22
+      },
+      {
+        "id": "253104",
+        "lat": 47.507957000000005,
+        "lon": 19.0841847,
+        "name": "Dózsa György út - Dembinszky utca",
+        "code": "0702",
+        "type": "7inch",
+        "bikes": 8,
+        "spaces": 24
+      },
+      {
+        "id": "248564",
+        "lat": 47.5053842,
+        "lon": 19.0486921,
+        "name": "Vécsey utca",
+        "code": "0504",
+        "type": "character",
+        "bikes": 15,
+        "spaces": 22
+      },
+      {
+        "id": "269366",
+        "lat": 47.5034932,
+        "lon": 19.0656766,
+        "name": "Teréz körút - Király utca",
+        "code": "0601",
+        "type": "7inch",
+        "bikes": 9,
+        "spaces": 22
+      },
+      {
+        "id": "1758981",
+        "lat": 47.5096232,
+        "lon": 19.0126417,
+        "name": "Szilágyi Erzsébet fasor - Fogaskerekű",
+        "code": "1205",
+        "type": "character",
+        "bikes": 14,
+        "spaces": 16
+      },
+      {
+        "id": "251962",
+        "lat": 47.511182000000005,
+        "lon": 19.080324700000002,
+        "name": "Városligeti fasor - Dózsa György út",
+        "code": "0612",
+        "type": "character",
+        "bikes": 0,
+        "spaces": 0
+      },
+      {
+        "id": "253107",
+        "lat": 47.5002615,
+        "lon": 19.0638036,
+        "name": "Klauzál tér",
+        "code": "0704",
+        "type": "7inch",
+        "bikes": 15,
+        "spaces": 15
+      },
+      {
+        "id": "3630113",
+        "lat": 47.531509441414634,
+        "lon": 19.066708087921143,
+        "name": "Árpád-híd M-József Attila Színház",
+        "code": "1314",
+        "type": "7inch",
+        "bikes": 14,
+        "spaces": 16
+      },
+      {
+        "id": "253109",
+        "lat": 47.500626000000004,
+        "lon": 19.0684022,
+        "name": "Erzsébet körút - Wesselényi utca",
+        "code": "0705",
+        "type": "7inch",
+        "bikes": 20,
+        "spaces": 21
+      }
+    ],
+    "outOfRange": false,
+    "limitExceeded": false,
+    "references": {
+      "agencies": {},
+      "routes": {},
+      "stops": {},
+      "trips": {},
+      "alerts": {}
+    },
+    "class": "listWithReferences"
+  }
+}
