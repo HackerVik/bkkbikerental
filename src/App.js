@@ -4,14 +4,25 @@ import Map from 'pigeon-maps';
 import Overlay from 'pigeon-overlay';
 import './App.css';
 
+
 export default class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
             items: [],
             isLoaded: false,
-        }
+            isMapView: true,
+        };
+        this.setMapView=this.setMapView.bind(this)
     }
+
+
+    setMapView() {
+        this.setState({
+            ...this.state,
+            isMapView: !this.state.isMapView})
+    }
+
 
     componentDidMount() {
         // fetch('https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test')
@@ -48,7 +59,6 @@ export default class App extends Component {
             return <div className="App">
                 <img alt={"loading"} src={biker} className="App-loading"/></div>;
         } else {
-            const isMapView = true;
             return (
                 <div className="App">
                     <div style={{
@@ -69,13 +79,13 @@ export default class App extends Component {
                                 Raw data
                             </a>
                         </button>
-                        <button type="submit" className="App-button"
-                        >Switch to {!isMapView ? "Map" : "Table"} view
+                        <button type="submit" className="App-button" onClick={this.setMapView}
+                        >Switch to {!this.state.isMapView ? "Map" : "Table"} view
                         </button>
                     </div>
                     <div style={{
                         textAlign: "center",
-                        display: (isMapView ? "inline" : "none")
+                        display: (this.state.isMapView ? "inline" : "none")
                     }}>
                         <Map center={[47.505, 19.06]}
                              zoom={14}
@@ -103,7 +113,7 @@ export default class App extends Component {
                             ))}
                         </Map>
                     </div>
-                    <div style={{display: (!isMapView ? "inline" : "none")}}>
+                    <div style={{display: (!this.state.isMapView ? "inline" : "none")}}>
                         <table>
                             <thead>
                             <tr>
