@@ -13,14 +13,15 @@ export default class App extends Component {
             isLoaded: false,
             isMapView: true,
         };
-        this.setMapView=this.setMapView.bind(this)
+        this.setMapView = this.setMapView.bind(this)
     }
 
 
     setMapView() {
         this.setState({
             ...this.state,
-            isMapView: !this.state.isMapView})
+            isMapView: !this.state.isMapView
+        })
     }
 
 
@@ -56,7 +57,7 @@ export default class App extends Component {
     render() {
         const {isLoaded, items} = this.state;
         if (!isLoaded) {
-            return <div className="App">
+            return <div style={{textAlign: "center"}}>
                 <img alt={"loading"} src={biker} className="App-loading"/></div>;
         } else {
             return (
@@ -103,7 +104,8 @@ export default class App extends Component {
                                         borderRadius: "50%",
                                         boxShadow: ".2em .2em .2em grey",
                                         border: "1px dotted double grey",
-                                        opacity: ".8"
+                                        opacity: ".8",
+                                        cursor: "pointer"
                                     }} src={biker}
                                          width={25}
                                          height={25}

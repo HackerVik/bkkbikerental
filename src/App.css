@@ -1,5 +1,8 @@
 .App {
     text-align: center;
+    width: 90%;
+    margin: 2.5% 0 2.5% 5%;
+    box-shadow: grey .5em .5em .5em;
 }
 
 .App-logo {
@@ -58,7 +61,8 @@ table tr:nth-child(even) {
 }
 
 table tr:hover {
-    background-color: #ddd;
+    background-color: yellow;
+    cursor: pointer;
 }
 
 table th {
@@ -93,10 +97,11 @@ button {
 
 button:hover {
     border: 2px solid yellow;
+    cursor: pointer;
 }
 
 a:hover {
-    cursor: default;
+    cursor: pointer;
 }
 
 a:visited {
