@@ -13,14 +13,15 @@ export default class App extends Component {
             isLoaded: false,
             isMapView: true,
         };
-        this.setMapView=this.setMapView.bind(this)
+        this.setMapView = this.setMapView.bind(this)
     }
 
 
     setMapView() {
         this.setState({
             ...this.state,
-            isMapView: !this.state.isMapView})
+            isMapView: !this.state.isMapView
+        })
     }
 
 

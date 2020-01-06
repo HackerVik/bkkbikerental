@@ -1,5 +1,12 @@
 .App {
     text-align: center;
+    width: 90%;
+    margin: 2.5% 0 2.5% 5%;
+    border: 2px solid darkblue;
+    background-color: #66cccc;
+    box-shadow: grey .5em .5em .5em;
+    padding: 1% 0 1% 0;
+    border-radius: 1em;
 }
 
 .App-logo {
@@ -58,7 +65,7 @@ table tr:nth-child(even) {
 }
 
 table tr:hover {
-    background-color: #ddd;
+    background-color: yellow;
 }
 
 table th {
