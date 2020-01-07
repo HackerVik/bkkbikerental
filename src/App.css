@@ -107,3 +107,19 @@ a:hover {
 a:visited {
     color: darkblue;
 }
+
+.Station-pin {
+    border-radius: 50%;
+    box-shadow: .2em .2em .2em grey;
+    border: 1px dotted grey;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.Station-pin:hover {
+    border: 3px solid yellow;
+    box-shadow: .4em .4em .4em grey;
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+}
