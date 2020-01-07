@@ -4,6 +4,7 @@ import Map from 'pigeon-maps';
 import Overlay from 'pigeon-overlay';
 import './App.css';
 import RawDataModal from './components/RawDataModal';
+import StationDataModal from './components/StationDataModal';
 
 
 export default class App extends Component {
@@ -114,6 +115,7 @@ export default class App extends Component {
                                 </Overlay>
                             ))}
                         </Map>
+                        <StationDataModal/>
                     </div>
                     <div style={{display: (!this.state.isMapView ? "inline" : "none")}}>
                         <table>
