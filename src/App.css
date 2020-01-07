@@ -2,7 +2,7 @@
     text-align: center;
     width: 90%;
     margin: 2.5% 0 2.5% 5%;
-    box-shadow: grey .5em .5em .5em;
+    box-shadow: darkgrey .5em .5em .5em;
 }
 
 .App-logo {
@@ -76,19 +76,21 @@ button {
 }
 
 .App-loading {
-    margin-top: 10em;
+    margin-top: 15%;
     border-radius: 50%;
     box-shadow: .5em .5em .5em grey;
     border: 1px dotted grey;
+    width: 40%;
+    height: 40%;
 }
 
 .App-button {
     background: none;
-    border: 2px solid darkblue;
+    border: .2vmin solid darkblue;
     color: darkblue;
     border-radius: 1em;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.5vmin;
     padding: .3em 1em;
 }
 
