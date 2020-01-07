@@ -3,7 +3,7 @@ import biker from './images/biker.gif';
 import Map from 'pigeon-maps';
 import Overlay from 'pigeon-overlay';
 import './App.css';
-import Modal from './components/RawDataModal';
+import RawDataModal from './components/RawDataModal';
 
 
 export default class App extends Component {
@@ -80,7 +80,7 @@ export default class App extends Component {
                         {/*    Home*/}
                         {/*</button>*/}
                         <button className="App-button">
-                            <Modal/>
+                            <RawDataModal/>
                         </button>
                         <button type="submit" className="App-button" onClick={this.setMapView}
                         >Switch to {!this.state.isMapView ? "Map" : "Table"} view
