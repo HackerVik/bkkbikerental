@@ -52,8 +52,9 @@ export default function RawDataModal() {
                     <iframe
                         title={"rawdatamodal"}
                         src="https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test"
-                        style={{width: '100%', height: '90%'}}
+                        style={{width: '100%', height: '87.5%'}}
                     />
+                    <button style={{fontSize: "1.25vmin"}} onClick={handleClose}>Close</button>
                 </div>
             </Modal>
         </div>
