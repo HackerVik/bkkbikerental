@@ -76,9 +76,9 @@ export default class App extends Component {
                     <div style={{
                         background: "#66cccc",
                         textAlign: "center",
-                        paddingTop: ".15em",
+                        paddingTop: "2%",
                         fontFamily: "headerFont",
-                        fontSize: "5em",
+                        fontSize: "5vmin",
                         color: "darkblue"
                     }}>BKKBikeRental
                     </div>
