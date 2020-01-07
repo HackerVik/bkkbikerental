@@ -73,14 +73,7 @@ export default class App extends Component {
         } else {
             return (
                 <div className="App">
-                    <div style={{
-                        background: "#66cccc",
-                        textAlign: "center",
-                        paddingTop: "2%",
-                        fontFamily: "headerFont",
-                        fontSize: "5vmin",
-                        color: "darkblue"
-                    }}>BKKBikeRental
+                    <div className="App-header" style={{fontFamily: "headerFont"}}>BKKBikeRental
                     </div>
                     <div style={{background: "#66cccc"}}>
                         <button className="App-button" onClick={this.setHome}>
