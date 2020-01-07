@@ -3,6 +3,7 @@ import biker from './images/biker.gif';
 import Map from 'pigeon-maps';
 import Overlay from 'pigeon-overlay';
 import './App.css';
+import Modal from './components/RawDataModal';
 
 
 export default class App extends Component {
@@ -100,16 +101,13 @@ export default class App extends Component {
                                          payload={1}
                                          onClick={({event, anchor, payload}) => {
                                          }}>
-                                    <img style={{
-                                        borderRadius: "50%",
-                                        boxShadow: ".2em .2em .2em grey",
-                                        border: "1px dotted double grey",
-                                        opacity: ".8",
-                                        cursor: "pointer"
-                                    }} src={biker}
-                                         width={25}
-                                         height={25}
-                                         alt={item.id}
+                                    <img
+                                        onClick={() => this.stationHandle(item.name, item.spaces, item.bikes)}
+                                        className="Station-pin"
+                                        src={biker}
+                                        width={25}
+                                        height={25}
+                                        alt={item.id}
                                     />
                                 </Overlay>
                             ))}
@@ -131,7 +129,8 @@ export default class App extends Component {
                             </thead>
                             <tbody>
                             {items.map(item => (
-                                <tr key={item.id}>
+                                <tr key={item.id}
+                                    onClick={() => this.stationHandle(item.name, item.spaces, item.bikes)}>
                                     <td>{item.code}</td>
                                     <td>{item.name}</td>
                                     <td>{item.bikes}</td>
