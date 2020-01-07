@@ -18,6 +18,9 @@ export default class App extends Component {
         this.setHome = this.setHome.bind(this);
     }
 
+    stationHandle(name, spaces, bikes) {
+        alert(name + ":" + bikes + " bikes " + spaces + " spaces");
+    }
 
     setMapView() {
         this.setState({
