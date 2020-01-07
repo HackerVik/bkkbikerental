@@ -15,7 +15,7 @@ export default class App extends Component {
             isMapView: true,
         };
         this.setMapView = this.setMapView.bind(this);
-        this.setHome = this.setHome.bind(this);
+        // this.setHome = this.setHome.bind(this);
     }
 
     stationHandle(name, spaces, bikes) {
@@ -29,12 +29,12 @@ export default class App extends Component {
         })
     }
 
-    setHome() {
-        this.setState({
-            ...this.state,
-            isMapView: true,
-        })
-    }
+    // setHome() {
+    //     this.setState({
+    //         ...this.state,
+    //         isMapView: true,
+    //     })
+    // }
 
     componentDidMount() {
         // fetch('https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test')
@@ -76,9 +76,9 @@ export default class App extends Component {
                     <div className="App-header" style={{fontFamily: "headerFont"}}>BKKBikeRental
                     </div>
                     <div style={{background: "#66cccc"}}>
-                        <button className="App-button" onClick={this.setHome}>
-                            Home
-                        </button>
+                        {/*<button className="App-button" onClick={this.setHome}>*/}
+                        {/*    Home*/}
+                        {/*</button>*/}
                         <button className="App-button">
                             <Modal/>
                         </button>
