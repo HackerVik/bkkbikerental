@@ -102,6 +102,7 @@ export default class App extends Component {
                              width={0}
                              height={1000}
                              maxZoom={19}
+                             minZoom={14}
                         >
                             {items.map(item => (
                                 <Overlay key={item.id}
