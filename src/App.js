@@ -14,17 +14,24 @@ export default class App extends Component {
             isLoaded: false,
             isMapView: true,
         };
-        this.setMapView = this.setMapView.bind(this)
+        this.setMapView = this.setMapView.bind(this);
+        this.setHome = this.setHome.bind(this);
     }
 
 
     setMapView() {
         this.setState({
             ...this.state,
-            isMapView: !this.state.isMapView
+            isMapView: !this.state.isMapView,
         })
     }
 
+    setHome() {
+        this.setState({
+            ...this.state,
+            isMapView: true,
+        })
+    }
 
     componentDidMount() {
         // fetch('https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test')
@@ -73,13 +80,11 @@ export default class App extends Component {
                     }}>BKKBikeRental
                     </div>
                     <div style={{background: "#66cccc"}}>
+                        <button className="App-button" onClick={this.setHome}>
+                            Home
+                        </button>
                         <button className="App-button">
-                            <a style={{
-                                textDecoration: "none",
-                            }}
-                               href="https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test">
-                                Raw data
-                            </a>
+                            <Modal/>
                         </button>
                         <button type="submit" className="App-button" onClick={this.setMapView}
                         >Switch to {!this.state.isMapView ? "Map" : "Table"} view
