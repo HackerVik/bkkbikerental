@@ -16,6 +16,7 @@ function getModalStyle() {
 
 const useStyles = makeStyles(theme => ({
     paper: {
+        width: '70%',
         position: 'absolute',
         backgroundColor: 'white',
         border: '2px solid darkblue',
@@ -36,7 +37,7 @@ export default function StationDataModal(props) {
                 <div style={modalStyle} className={classes.paper}>
                     <h2>{props.stationName}</h2>
                     <p>Bikes available: {props.stationBikes}<br/>Spaces available: {props.stationSpaces}</p>
-                    <img src={Bubi} alt={"stationpicture"}/>
+                    <img src={Bubi} alt={"stationpicture"} style={{width: '100%'}}/><br/>
                     <button style={{fontSize: "1.25vmin"}} onClick={props.handleModal}>Close</button>
                 </div>
             </Modal>
