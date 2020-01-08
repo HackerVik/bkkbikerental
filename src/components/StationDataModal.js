@@ -1,6 +1,7 @@
 import React from 'react';
-import {makeStyles} from '@material-ui/core/styles';
 import { Modal } from '@material-ui/core';
+import {makeStyles} from "@material-ui/core/styles";
+import Bubi from '../images/bubi.png';
 
 function getModalStyle() {
     const top = 50;
@@ -24,24 +25,19 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-export default function StationDataModal() {
+export default function StationDataModal(props) {
     const classes = useStyles();
     const [modalStyle] = React.useState(getModalStyle);
-    const [open, setOpen] = React.useState(false);
-    const handleOpen = () => {setOpen(true);};
-    const handleClose = () => {setOpen(false);};
-
     return (
         <div>
-            {/*<button onClick={handleOpen}>Station modal</button>*/}
             <Modal
-                open={open}
-                onClose={handleClose}
+                open={props.stationModal}
             >
                 <div style={modalStyle} className={classes.paper}>
-                    <h2>Station data</h2>
-                    <p>Description</p>
-                    <button style={{fontSize: "1.25vmin"}} onClick={handleClose}>Close</button>
+                    <h2>{props.stationName}</h2>
+                    <p>Bikes available: {props.stationBikes}<br/>Spaces available: {props.stationSpaces}</p>
+                    <img src={Bubi} alt={"stationpicture"}/>
+                    <button style={{fontSize: "1.25vmin"}} onClick={props.handleModal}>Close</button>
                 </div>
             </Modal>
         </div>
