@@ -33,6 +33,7 @@ export default function StationDataModal(props) {
         <div>
             <Modal
                 open={props.stationModal}
+                onClose={props.handleModal}
             >
                 <div style={modalStyle} className={classes.paper}>
                     <h2>{props.stationName}</h2>
