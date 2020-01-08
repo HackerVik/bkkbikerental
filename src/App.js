@@ -14,13 +14,24 @@ export default class App extends Component {
             items: [],
             isLoaded: false,
             isMapView: true,
+            stationModal: false,
+            stationName: null,
+            stationSpaces: null,
+            stationBikes: null,
         };
         this.setMapView = this.setMapView.bind(this);
         // this.setHome = this.setHome.bind(this);
+        this.stationHandle = this.stationHandle.bind(this);
     }
 
     stationHandle(name, spaces, bikes) {
-        alert(name + ":" + bikes + " bikes " + spaces + " spaces");
+        this.setState({
+            ...this.state,
+            stationModal: !this.state.stationModal,
+            stationName: name,
+            stationSpaces: spaces,
+            stationBikes: bikes,
+        })
     }
 
     setMapView() {
@@ -115,7 +126,7 @@ export default class App extends Component {
                                 </Overlay>
                             ))}
                         </Map>
-                        <StationDataModal/>
+                        <StationDataModal items={{items}} stationModal={this.state.stationModal} handleModal={this.stationHandle} stationName={this.state.stationName} stationSpaces={this.state.stationSpaces} stationBikes={this.state.stationBikes}/>
                     </div>
                     <div style={{display: (!this.state.isMapView ? "inline" : "none")}}>
                         <table>
