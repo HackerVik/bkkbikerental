@@ -30,13 +30,8 @@ export default function RawDataModal() {
     const classes = useStyles();
     const [modalStyle] = React.useState(getModalStyle);
     const [open, setOpen] = React.useState(false);
-
-    const handleOpen = () => {
-        setOpen(true);
-    };
-    const handleClose = () => {
-        setOpen(false);
-    };
+    const handleOpen = () => {setOpen(true);};
+    const handleClose = () => {setOpen(false);};
 
     return (
         <div>
