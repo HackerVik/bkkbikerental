@@ -126,7 +126,10 @@ export default class App extends Component {
                                 </Overlay>
                             ))}
                         </Map>
-                        <StationDataModal items={{items}} stationModal={this.state.stationModal} handleModal={this.stationHandle} stationName={this.state.stationName} stationSpaces={this.state.stationSpaces} stationBikes={this.state.stationBikes}/>
+                        <StationDataModal items={{items}} stationModal={this.state.stationModal}
+                                          handleModal={this.stationHandle} stationName={this.state.stationName}
+                                          stationSpaces={this.state.stationSpaces}
+                                          stationBikes={this.state.stationBikes}/>
                     </div>
                     <div style={{display: (!this.state.isMapView ? "inline" : "none")}}>
                         <table>

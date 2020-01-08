@@ -1,6 +1,6 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
-import { Modal } from '@material-ui/core';
+import {Modal} from '@material-ui/core';
 
 function getModalStyle() {
     const top = 50;
@@ -30,8 +30,12 @@ export default function RawDataModal() {
     const classes = useStyles();
     const [modalStyle] = React.useState(getModalStyle);
     const [open, setOpen] = React.useState(false);
-    const handleOpen = () => {setOpen(true);};
-    const handleClose = () => {setOpen(false);};
+    const handleOpen = () => {
+        setOpen(true);
+    };
+    const handleClose = () => {
+        setOpen(false);
+    };
 
     return (
         <div>
