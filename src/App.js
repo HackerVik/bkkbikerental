@@ -77,7 +77,7 @@ export default class App extends Component {
                 return data;
             })
             .catch(e => {
-                console.log(e);
+                // console.log(e);
                 return e;
             });
     }
@@ -86,20 +86,20 @@ export default class App extends Component {
         const {isLoaded, items} = this.state;
         if (!isLoaded) {
             return <div style={{textAlign: "center"}}>
-                <img alt={"loading"} src={biker} className="App-loading"/></div>;
+                <img alt={"loading"} src={biker} className="App-loading" style={{transition: 'width 1s ease-out 1s'}}/></div>;
         } else {
             return (
                 <div className="App">
                     <div className="App-header" style={{fontFamily: "headerFont"}}>BKKBikeRental
                     </div>
                     <div style={{background: "#66cccc"}}>
-                        {/*<button className="App-button" onClick={this.setHome}>*/}
+                        {/*<button onClick={this.setHome}>*/}
                         {/*    Home*/}
                         {/*</button>*/}
-                        <button className="App-button">
+                        <button>
                             <RawDataModal/>
                         </button>
-                        <button type="submit" className="App-button" onClick={this.setMapView}
+                        <button type="submit" onClick={this.setMapView}
                         >Switch to {!this.state.isMapView ? "Map" : "Table"} view
                         </button>
                     </div>
@@ -113,6 +113,7 @@ export default class App extends Component {
                              height={1000}
                              maxZoom={19}
                              minZoom={14}
+                             animate={true}
                         >
                             {items.map(item => (
                                 <Overlay key={item.id}
@@ -121,7 +122,13 @@ export default class App extends Component {
                                          onClick={({event, anchor, payload}) => {
                                          }}>
                                     <img
-                                        onClick={() => this.stationHandle(item.name, item.spaces, item.bikes, item.lat, item.lon)}
+                                        onClick={() => this.stationHandle(
+                                            item.name,
+                                            item.spaces,
+                                            item.bikes,
+                                            item.lat,
+                                            item.lon
+                                        )}
                                         className="Station-pin"
                                         src={pin}
                                         width={25}
@@ -131,12 +138,15 @@ export default class App extends Component {
                                 </Overlay>
                             ))}
                         </Map>
-                        <StationDataModal items={{items}} stationModal={this.state.stationModal}
-                                          handleModal={this.stationHandle} stationName={this.state.stationName}
+                        <StationDataModal items={{items}}
+                                          stationModal={this.state.stationModal}
+                                          handleModal={this.stationHandle}
+                                          stationName={this.state.stationName}
                                           stationSpaces={this.state.stationSpaces}
                                           stationBikes={this.state.stationBikes}
                                           stationPositionLat={this.state.stationPositionLat}
-                                          stationPositionLon={this.state.stationPositionLon}/>
+                                          stationPositionLon={this.state.stationPositionLon}
+                        />
                     </div>
                     <div style={{display: (!this.state.isMapView ? "inline" : "none")}}>
                         <table>
@@ -147,22 +157,28 @@ export default class App extends Component {
                                 <th>bikes</th>
                                 <th>spaces</th>
                                 {/*<th>id</th>*/}
-                                <th>lat</th>
-                                <th>lon</th>
+                                {/*<th>lat</th>*/}
+                                {/*<th>lon</th>*/}
                                 {/*<th>type</th>*/}
                             </tr>
                             </thead>
                             <tbody>
                             {items.map(item => (
                                 <tr key={item.id}
-                                    onClick={() => this.stationHandle(item.name, item.spaces, item.bikes, item.lat, item.lon)}>
+                                    onClick={() => this.stationHandle(
+                                        item.name,
+                                        item.spaces,
+                                        item.bikes,
+                                        item.lat,
+                                        item.lon
+                                    )}>
                                     <td>{item.code}</td>
                                     <td>{item.name}</td>
                                     <td>{item.bikes}</td>
                                     <td>{item.spaces}</td>
                                     {/*<td>{item.id}</td>*/}
-                                    <td>{item.lat}</td>
-                                    <td>{item.lon}</td>
+                                    {/*<td>{item.lat}</td>*/}
+                                    {/*<td>{item.lon}</td>*/}
                                     {/*<td>{item.type}</td>*/}
                                 </tr>
                             ))}
