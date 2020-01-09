@@ -96,7 +96,7 @@ button {
     color: darkblue;
     border-radius: 1em;
     font-weight: bold;
-    font-size: 4vmin;
+    font-size: 2vmin;
     padding: .3em 1em;
 }
 
@@ -166,8 +166,4 @@ a:visited {
     height: 29px;
     opacity: 1;
     transform: rotate(-360deg);
-}
-
-.Modal:active {
-    transition: transform 1s;
 }

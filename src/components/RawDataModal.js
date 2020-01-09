@@ -39,7 +39,7 @@ export default function RawDataModal() {
     };
 
     return (
-        <div className="Modal">
+        <div>
             <div onClick={handleOpen}>
                 Raw data
             </div>
@@ -54,7 +54,7 @@ export default function RawDataModal() {
                         src="https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test"
                         style={{width: '100%', maxHeight: '80%'}}
                     />
-                    <button style={{fontSize: "4vmin"}} onClick={handleClose}>Close</button>
+                    <button style={{fontSize: "1vmin"}} onClick={handleClose}>Close</button>
                 </div>
             </Modal>
         </div>

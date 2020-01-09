@@ -16,7 +16,7 @@ function getModalStyle() {
 
 const useStyles = makeStyles(theme => ({
     paper: {
-        width: '80%',
+        maxHeight: '80%',
         position: 'absolute',
         backgroundImage: 'linear-gradient(to right, #9bccc9, #66cccc)',
         border: '2px solid darkblue',
@@ -43,7 +43,7 @@ export default function StationDataModal(props) {
                     <p>GPS: {fixedLat} , {fixedLon}<br/><br/>Bikes
                         available: {props.stationBikes}<br/>Spaces available: {props.stationSpaces}</p>
                     <img src={StationPicture} alt={"stationpicture"} style={{width: '100%'}}/><br/>
-                    <button style={{fontSize: "4vmin"}} onClick={props.handleModal}>Close</button>
+                    <button style={{fontSize: "1vmin"}} onClick={props.handleModal}>Close</button>
                 </div>
             </Modal>
         </div>
