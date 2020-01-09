@@ -155,7 +155,7 @@ export default class App extends Component {
                             <tbody>
                             {items.map(item => (
                                 <tr key={item.id}
-                                    onClick={() => this.stationHandle(item.name, item.spaces, item.bikes,item.lat, item.lon)}>
+                                    onClick={() => this.stationHandle(item.name, item.spaces, item.bikes, item.lat, item.lon)}>
                                     <td>{item.code}</td>
                                     <td>{item.name}</td>
                                     <td>{item.bikes}</td>
