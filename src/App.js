@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import biker from './images/biker.gif';
+import pin from './images/bubilogo.png';
 import Map from 'pigeon-maps';
 import Overlay from 'pigeon-overlay';
 import './App.css';
@@ -18,19 +19,23 @@ export default class App extends Component {
             stationName: null,
             stationSpaces: null,
             stationBikes: null,
+            stationPositionLat: null,
+            stationPositionLon: null,
         };
         this.setMapView = this.setMapView.bind(this);
         // this.setHome = this.setHome.bind(this);
         this.stationHandle = this.stationHandle.bind(this);
     }
 
-    stationHandle(name, spaces, bikes) {
+    stationHandle(name, spaces, bikes, lat, lon) {
         this.setState({
             ...this.state,
             stationModal: !this.state.stationModal,
             stationName: name,
             stationSpaces: spaces,
             stationBikes: bikes,
+            stationPositionLat: lat,
+            stationPositionLon: lon,
         })
     }
 
@@ -116,9 +121,9 @@ export default class App extends Component {
                                          onClick={({event, anchor, payload}) => {
                                          }}>
                                     <img
-                                        onClick={() => this.stationHandle(item.name, item.spaces, item.bikes)}
+                                        onClick={() => this.stationHandle(item.name, item.spaces, item.bikes, item.lat, item.lon)}
                                         className="Station-pin"
-                                        src={biker}
+                                        src={pin}
                                         width={25}
                                         height={25}
                                         alt={item.id}
@@ -129,7 +134,9 @@ export default class App extends Component {
                         <StationDataModal items={{items}} stationModal={this.state.stationModal}
                                           handleModal={this.stationHandle} stationName={this.state.stationName}
                                           stationSpaces={this.state.stationSpaces}
-                                          stationBikes={this.state.stationBikes}/>
+                                          stationBikes={this.state.stationBikes}
+                                          stationPositionLat={this.state.stationPositionLat}
+                                          stationPositionLon={this.state.stationPositionLon}/>
                     </div>
                     <div style={{display: (!this.state.isMapView ? "inline" : "none")}}>
                         <table>
@@ -140,22 +147,22 @@ export default class App extends Component {
                                 <th>bikes</th>
                                 <th>spaces</th>
                                 {/*<th>id</th>*/}
-                                {/*<th>lat</th>*/}
-                                {/*<th>lon</th>*/}
+                                <th>lat</th>
+                                <th>lon</th>
                                 {/*<th>type</th>*/}
                             </tr>
                             </thead>
                             <tbody>
                             {items.map(item => (
                                 <tr key={item.id}
-                                    onClick={() => this.stationHandle(item.name, item.spaces, item.bikes)}>
+                                    onClick={() => this.stationHandle(item.name, item.spaces, item.bikes,item.lat, item.lon)}>
                                     <td>{item.code}</td>
                                     <td>{item.name}</td>
                                     <td>{item.bikes}</td>
                                     <td>{item.spaces}</td>
                                     {/*<td>{item.id}</td>*/}
-                                    {/*<td>{item.lat}</td>*/}
-                                    {/*<td>{item.lon}</td>*/}
+                                    <td>{item.lat}</td>
+                                    <td>{item.lon}</td>
                                     {/*<td>{item.type}</td>*/}
                                 </tr>
                             ))}
