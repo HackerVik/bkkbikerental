@@ -18,11 +18,12 @@ const useStyles = makeStyles(theme => ({
         position: 'absolute',
         width: '80%',
         height: '80%',
-        backgroundColor: 'white',
+        backgroundImage: 'linear-gradient(to right, #9bccc9, #66cccc)',
         border: '2px solid darkblue',
         borderRadius: '1em',
         boxShadow: theme.shadows[5],
         padding: '1em',
+        color: 'darkblue',
     },
 }));
 
@@ -47,7 +48,7 @@ export default function RawDataModal() {
                 onClose={handleClose}
             >
                 <div style={modalStyle} className={classes.paper}>
-                    <p>Data requested from BKK server:</p>
+                    <h2>Data requested from server:</h2>
                     <iframe
                         title={"rawdatamodal"}
                         src="https://futar.bkk.hu/api/query/v1/ws/otp/api/where/bicycle-rental.json?key=apaiary-test"

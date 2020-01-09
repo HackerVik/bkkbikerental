@@ -6,6 +6,7 @@
     border-radius: 1vmin;
     padding: 1vmin 0 2vmin 0;
     background-color: #66cccc;
+    background-image: linear-gradient(to right, #9bccc9, #66cccc);
 }
 
 .App-logo {
@@ -20,11 +21,11 @@
 }
 
 .App-header {
-    background: #66cccc;
     text-align: center;
     padding-top: 1%;
     font-size: 8vmin;
     color: darkblue;
+    background-image: linear-gradient(to right, #9bccc9, #66cccc);
 }
 
 .App-link {
@@ -101,7 +102,7 @@ button {
 button:hover {
     border: 2px solid yellow;
     cursor: pointer;
-    animation: shake 1s;
+    animation: shake .75s;
     animation-iteration-count: .5;
 }
 
@@ -160,8 +161,8 @@ a:visited {
 
 .Station-pin:hover {
     border: 3px solid yellow;
-    width: 30px;
-    height: 30px;
+    width: 29px;
+    height: 29px;
     opacity: 1;
     transform: rotate(-360deg);
 }

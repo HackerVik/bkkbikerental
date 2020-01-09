@@ -18,11 +18,12 @@ const useStyles = makeStyles(theme => ({
     paper: {
         width: '70%',
         position: 'absolute',
-        backgroundColor: 'white',
+        backgroundImage: 'linear-gradient(to right, #9bccc9, #66cccc)',
         border: '2px solid darkblue',
         borderRadius: '1em',
         boxShadow: theme.shadows[5],
         padding: '1em',
+        color: 'darkblue',
     },
 }));
 
