@@ -1,7 +1,7 @@
 import React from 'react';
 import {Modal} from '@material-ui/core';
 import {makeStyles} from "@material-ui/core/styles";
-import Bubi from '../images/stationpicture.png';
+import StationPicture from '../images/stationpicture.png';
 
 function getModalStyle() {
     const top = 50;
@@ -16,7 +16,7 @@ function getModalStyle() {
 
 const useStyles = makeStyles(theme => ({
     paper: {
-        width: '70%',
+        width: '80%',
         position: 'absolute',
         backgroundImage: 'linear-gradient(to right, #9bccc9, #66cccc)',
         border: '2px solid darkblue',
@@ -33,7 +33,7 @@ export default function StationDataModal(props) {
     const fixedLon = parseFloat(props.stationPositionLon).toFixed(6);
     const fixedLat = parseFloat(props.stationPositionLat).toFixed(6);
     return (
-        <div className="Modal">
+        <div>
             <Modal
                 open={props.stationModal}
                 onClose={props.handleModal}
@@ -42,8 +42,8 @@ export default function StationDataModal(props) {
                     <h2>{props.stationName}</h2>
                     <p>GPS: {fixedLat} , {fixedLon}<br/><br/>Bikes
                         available: {props.stationBikes}<br/>Spaces available: {props.stationSpaces}</p>
-                    <img src={Bubi} alt={"stationpicture"} style={{width: '100%'}}/><br/>
-                    <button style={{fontSize: "1.25vmin"}} onClick={props.handleModal}>Close</button>
+                    <img src={StationPicture} alt={"stationpicture"} style={{width: '100%'}}/><br/>
+                    <button style={{fontSize: "4vmin"}} onClick={props.handleModal}>Close</button>
                 </div>
             </Modal>
         </div>
