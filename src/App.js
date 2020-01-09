@@ -93,7 +93,7 @@ export default class App extends Component {
                 <div className="App">
                     <div className="App-header" style={{fontFamily: "headerFont"}}>BKKBikeRental
                     </div>
-                    <div style={{background: "#66cccc"}}>
+                    <div style={{background: "#66cccc", margin: '1vmin'}}>
                         {/*<button onClick={this.setHome}>*/}
                         {/*    Home*/}
                         {/*</button>*/}
