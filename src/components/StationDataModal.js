@@ -29,6 +29,8 @@ const useStyles = makeStyles(theme => ({
 export default function StationDataModal(props) {
     const classes = useStyles();
     const [modalStyle] = React.useState(getModalStyle);
+    const fixedLat = parseFloat(props.stationPositionLon).toFixed(6);
+    const fixedLon = parseFloat(props.stationPositionLat).toFixed(6);
     return (
         <div className="Modal">
             <Modal
@@ -37,7 +39,7 @@ export default function StationDataModal(props) {
             >
                 <div style={modalStyle} className={classes.paper}>
                     <h2>{props.stationName}</h2>
-                    <p>GPS: {props.stationPositionLat} ,{props.stationPositionLon}<br/><br/>Bikes
+                    <p>GPS: {fixedLat} , {fixedLon}<br/><br/>Bikes
                         available: {props.stationBikes}<br/>Spaces available: {props.stationSpaces}</p>
                     <img src={Bubi} alt={"stationpicture"} style={{width: '100%'}}/><br/>
                     <button style={{fontSize: "1.25vmin"}} onClick={props.handleModal}>Close</button>
