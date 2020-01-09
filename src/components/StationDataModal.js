@@ -30,7 +30,7 @@ export default function StationDataModal(props) {
     const classes = useStyles();
     const [modalStyle] = React.useState(getModalStyle);
     return (
-        <div>
+        <div className="Modal">
             <Modal
                 open={props.stationModal}
                 onClose={props.handleModal}

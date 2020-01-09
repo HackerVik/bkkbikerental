@@ -38,7 +38,7 @@ export default function RawDataModal() {
     };
 
     return (
-        <div>
+        <div className="Modal">
             <div onClick={handleOpen}>
                 Raw data
             </div>
