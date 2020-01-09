@@ -3,6 +3,9 @@
     width: 90%;
     margin: 2.5% 0 2.5% 5%;
     box-shadow: darkgrey .5em .5em .5em;
+    border-radius: 1vmin;
+    padding: 1vmin 0 2vmin 0;
+    background-color: #66cccc;
 }
 
 .App-logo {
@@ -57,6 +60,10 @@ table tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
 table tr:hover {
     background-color: yellow;
     cursor: pointer;
@@ -71,10 +78,6 @@ table th {
     text-transform: capitalize;
 }
 
-button {
-    margin: .5em .5em;
-}
-
 .App-loading {
     margin-top: 15%;
     border-radius: 50%;
@@ -84,7 +87,8 @@ button {
     height: 40%;
 }
 
-.App-button {
+button {
+    margin: .5vmin .5vmin;
     background: none;
     border: .2vmin solid darkblue;
     color: darkblue;
@@ -97,7 +101,46 @@ button {
 button:hover {
     border: 2px solid yellow;
     cursor: pointer;
+    animation: shake 1s;
+    animation-iteration-count: .5;
 }
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
 
 a:hover {
     cursor: pointer;
@@ -113,24 +156,14 @@ a:visited {
     border: 1px dotted grey;
     opacity: .8;
     cursor: pointer;
+    transition: width .75s, height .75s, transform .75s;
 }
 
 .Station-pin:hover {
+    box-shadow: 0em 0em 0em grey;
     border: 3px solid yellow;
-    box-shadow: .4em .4em .4em grey;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     opacity: 1;
-}
-
-.Modal-paper {
-    position: absolute;
-    background-color: white;
-    border: 2px solid darkblue;
-    border-radius: 1em;
-    box-shadow: .3em .3em .3em grey;
-    padding: 1vmin;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: rotate(360deg);
 }
