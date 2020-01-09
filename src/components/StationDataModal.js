@@ -1,7 +1,7 @@
 import React from 'react';
 import {Modal} from '@material-ui/core';
 import {makeStyles} from "@material-ui/core/styles";
-import Bubi from '../images/bubi.png';
+import Bubi from '../images/stationpicture.png';
 
 function getModalStyle() {
     const top = 50;
