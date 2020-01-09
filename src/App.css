@@ -152,7 +152,6 @@ a:visited {
 
 .Station-pin {
     border-radius: 50%;
-    box-shadow: .2em .2em .2em grey;
     border: 1px dotted grey;
     opacity: .8;
     cursor: pointer;
@@ -160,12 +159,11 @@ a:visited {
 }
 
 .Station-pin:hover {
-    box-shadow: 0em 0em 0em grey;
     border: 3px solid yellow;
     width: 30px;
     height: 30px;
     opacity: 1;
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
 }
 
 .Modal:active {
