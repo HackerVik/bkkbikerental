@@ -86,7 +86,8 @@ export default class App extends Component {
         const {isLoaded, items} = this.state;
         if (!isLoaded) {
             return <div style={{textAlign: "center"}}>
-                <img alt={"loading"} src={biker} className="App-loading" style={{transition: 'width 1s ease-out 1s'}}/></div>;
+                <img alt={"loading"} src={biker} className="App-loading" style={{transition: 'width 1s ease-out 1s'}}/>
+            </div>;
         } else {
             return (
                 <div className="App">
