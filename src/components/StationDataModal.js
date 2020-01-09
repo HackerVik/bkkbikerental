@@ -42,7 +42,7 @@ export default function StationDataModal(props) {
                     <h2>{props.stationName}</h2>
                     <p>GPS: {fixedLat} , {fixedLon}<br/><br/>Bikes
                         available: {props.stationBikes}<br/>Spaces available: {props.stationSpaces}</p>
-                    <img src={StationPicture} alt={"stationpicture"} style={{width: '100%'}}/><br/>
+                    <img src={StationPicture} alt={"stationpicture"} style={{width: '100%', borderRadius: '1vmin'}}/><br/>
                     <button style={{fontSize: "1vmin"}} onClick={props.handleModal}>Close</button>
                 </div>
             </Modal>
