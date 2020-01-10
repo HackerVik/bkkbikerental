@@ -30,8 +30,8 @@ const useStyles = makeStyles(theme => ({
 export default function StationDataModal(props) {
     const classes = useStyles();
     const [modalStyle] = React.useState(getModalStyle);
-    const fixedLon = parseFloat(props.stationPositionLon).toFixed(6);
-    const fixedLat = parseFloat(props.stationPositionLat).toFixed(6);
+    const fixedLon = parseFloat(props.stationPositionLon).toFixed(4);
+    const fixedLat = parseFloat(props.stationPositionLat).toFixed(4);
     return (
         <div>
             <Modal
