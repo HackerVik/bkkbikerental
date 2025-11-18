@@ -7,7 +7,7 @@
     "@testing-library/react": "^9.3.3",
     "@testing-library/user-event": "^7.1.2",
     "google-map-react": "^1.1.5",
-    "pigeon-maps": "^0.14.0",
+    "pigeon-maps": "^0.22.0",
     "pigeon-marker": "^0.3.4",
     "pigeon-overlay": "^0.2.3",
     "react": "^16.12.0",
