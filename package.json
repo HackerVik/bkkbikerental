@@ -5,7 +5,7 @@
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.3",
-    "@testing-library/user-event": "^7.1.2",
+    "@testing-library/user-event": "^14.0.0",
     "google-map-react": "^1.1.5",
     "pigeon-maps": "^0.14.0",
     "pigeon-marker": "^0.3.4",
